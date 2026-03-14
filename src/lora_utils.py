@@ -54,9 +54,7 @@ def generate_lora_response(user_query: str, max_new_tokens: int = 20) -> str:
             input_ids=inputs["input_ids"],
             attention_mask=inputs["attention_mask"],
             max_new_tokens=max_new_tokens,
-            temperature=0.1,
-            top_p=0.9,
-            do_sample=True,
+            do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
             eos_token_id=tokenizer.eos_token_id,
         )
