@@ -5,6 +5,12 @@ from pathlib import Path
 # Suppress Hugging Face tokenizers fork warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+# Skip transformers' optional TensorFlow integration. SmolLM2 + LoRA only need
+# the PyTorch backend; some Conda-bundled tensorflow builds segfault on import
+# under numpy 2.x, so disabling the integration here prevents an unrelated
+# crash from killing the LoRA pipeline.
+os.environ.setdefault("USE_TF", "0")
+
 # Load environment variables from .env at project startup
 load_dotenv()
 

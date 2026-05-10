@@ -1,124 +1,149 @@
-# SMS Spam LLM System
+# SMS Spam LLM System: Benchmarking Classical NLP, RAG, Agentic Verification, and LoRA Fine-Tuning
 
-A unified LAG-based and fine-tuning-based SMS spam classification project built on the **UCI SMS Spam Collection** dataset. This repository compares multiple increasingly advanced approaches, including **semantic retrieval**, **retrieval-augmented generation (RAG)**, **prompt engineering**, **LoRA fine-tuning**, and **multi-agent reasoning**.
+This repository is a benchmarked SMS spam classification system built on the UCI SMS Spam Collection dataset. It compares classical machine learning, direct LLM classification, retrieval-augmented generation, agentic RAG, a local LoRA-adapted classifier, and a guarded fallback workflow.
 
-## Project Overview
+The project is designed as a portfolio-friendly LLM systems study: it includes implementation code in `src/`, cost-controlled quantitative benchmark outputs in `outputs/`, and analysis notebooks in `notebooks/`.
 
-This project studies how different large language model enhancement strategies affect **SMS spam detection**. Rather than treating spam classification as a single-model problem, this repository builds a unified experimental framework that compares multiple approaches under the same dataset and task setting.
+## Key Features
 
-The project progresses through several stages:
+- **TF-IDF + Logistic Regression baseline** for a strong, fast classical NLP reference point.
+- **Base LLM classification** for direct spam/ham prediction without retrieval.
+- **Basic RAG** using Pinecone retrieval to ground classification in similar labeled SMS examples.
+- **Advanced Agentic RAG** with evidence retrieval, evidence filtering, classification, verification, retry/finalization logic, and structured orchestration.
+- **Evidence-aware LoRA classifier** using the local `smollm2_spam_lora_adapter/` as an experimental small-model classifier.
+- **Guarded fallback mode** that runs LoRA first, checks verifier support, and falls back to the advanced base RAG workflow when needed.
+- **Risk-feature logging** for explainability and error analysis, including URL, phone, currency, urgency, prize, call/reply, uppercase, exclamation, and length features.
+- **Quantitative benchmark pipeline** that writes reproducible CSV, Markdown, and confusion-matrix artifacts.
+- **Analysis notebooks** for dataset EDA, benchmark analysis, and prediction-level system insights.
 
-- **Semantic retrieval and vector search** for nearest-neighbor example lookup
-- **Basic RAG pipelines** for evidence-grounded classification
-- **Prompt engineering strategies** for improving zero-shot and few-shot performance
-- **LoRA fine-tuning** for parameter-efficient task adaptation
-- **Multi-agent orchestration** for advanced evidence filtering, classification, and verification
+## Project Architecture
 
-The final system integrates these components into a modular framework for comparing direct LLM classification, RAG-based classification, and agentic reasoning workflows, while also including a fine-tuned LoRA branch as an experimental component.
+```text
+data/SMSSpamCollection
+        |
+        v
+src/classical_baselines.py  ---> TF-IDF + Logistic Regression
+        |
+        v
+src/benchmark.py -----------> runs selected modes, logs predictions, metrics, risk features
+        |
+        +--> src/base_modes.py --------> Base LLM and Basic RAG
+        +--> src/pinecone_utils.py ----> Pinecone retrieval utilities
+        +--> src/agents.py / graph.py -> Agentic retrieval, filtering, classification, verification
+        +--> src/lora_utils.py -------> Local LoRA classifier wrapper
+        +--> src/evaluation.py -------> Advanced RAG and guarded fallback runners
+        |
+        v
+outputs/
+        |
+        v
+notebooks/
+```
 
-## Research Question
+The implementation stays in `src/`. The notebooks are analysis/reporting layers that read from `data/` and `outputs/`; they do not call APIs or rerun model inference.
 
-**How do retrieval, prompt engineering, fine-tuning, and agent-based orchestration affect the quality and interpretability of LLM-based SMS spam classification?**
+## Modes Compared
 
-## Dataset
+| Mode | Uses retrieval? | Uses LLM? | Uses LoRA? | Uses verifier/fallback? | Notes |
+|---|---|---|---|---|---|
+| `tfidf_lr` | No | No | No | No | Classical TF-IDF + Logistic Regression baseline. |
+| `base_llm` | No | Yes | No | No | Direct API-based LLM classification. |
+| `basic_rag` | Yes | Yes | No | No | Retrieves similar labeled examples and passes them to the LLM. |
+| `advanced_base` | Yes | Yes | No | Verifier/retry | Agentic RAG workflow with base LLM classifier. |
+| `advanced_lora` | Yes | Yes | Yes | Verifier/retry | Agentic RAG workflow with local LoRA classifier and LLM-based evidence filtering/verifier. |
+| `guarded_fallback` | Yes | Yes | Yes | Yes | Runs LoRA first, then falls back to advanced base RAG if verification is unsupported. |
 
-This project uses the **SMS Spam Collection** dataset from the UCI Machine Learning Repository:
+## Benchmark Results
 
-- **Dataset:** SMS Spam Collection
-- **Task:** Binary text classification
-- **Labels:** `spam` and `ham`
+The table below comes from a **30-sample stratified held-out benchmark**. The sample was intentionally small to control API cost across LLM/RAG modes. These results should be read as a cost-controlled comparison slice, not as full-test-set production validation.
 
-Source: UCI Machine Learning Repository  
-Dataset link: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
+| mode | n | accuracy | macro F1 | spam recall | ham recall | TP | FP | FN | TN | avg latency (s) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| `tfidf_lr` | 30 | 0.9667 | 0.9191 | 0.7500 | 1.0000 | 3 | 0 | 1 | 26 | 0.0001 |
+| `base_llm` | 30 | 0.8667 | 0.7600 | 0.7500 | 0.8846 | 3 | 3 | 1 | 23 | 0.8539 |
+| `basic_rag` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 1.4625 |
+| `advanced_base` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 5.6724 |
+| `advanced_lora` | 30 | 0.8667 | 0.4643 | 0.0000 | 1.0000 | 0 | 0 | 4 | 26 | 11.0517 |
+| `guarded_fallback` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 11.3166 |
 
-## Methods
+Generated benchmark artifacts:
 
-This repository compares multiple methods built on the same dataset and classification task.
+- `outputs/benchmark_results.csv`
+- `outputs/benchmark_predictions.csv`
+- `outputs/benchmark_summary.md`
+- `outputs/confusion_matrices.png`
 
-### 1. Semantic Retrieval and Vector Database
+## Key Findings
 
-The first stage builds a semantic retrieval layer by embedding SMS messages and storing them in a vector database. This enables nearest-neighbor search and forms the foundation for retrieval-based classification.
+- Retrieval improved LLM reliability on the 30-sample benchmark slice.
+- TF-IDF + Logistic Regression remained a strong and extremely fast classical baseline.
+- The base LLM was weaker without retrieval grounding.
+- Basic RAG and Advanced Base performed strongly on this benchmark sample.
+- The LoRA adapter is integrated and runnable, but it showed poor spam recall in this run.
+- Evidence-aware prompting alone did not fix the LoRA classifier's ham bias.
+- Guarded fallback recovered the LoRA spam misses by using verifier-based fallback to the advanced base RAG workflow.
+- System design matters as much as model choice: a small fine-tuned model does not automatically outperform RAG or a classical baseline.
 
-Main ideas:
-- Convert SMS messages into dense embeddings
-- Store and index embeddings in Pinecone
-- Retrieve semantically similar messages for a query SMS
-- Use retrieved examples as supporting evidence
+## How to Run
 
-### 2. Retrieval-Augmented Generation (RAG)
+### Install
 
-The second stage uses retrieval results to support LLM predictions. Instead of classifying a message in isolation, the model can reference similar labeled examples during inference.
+```bash
+pip install -r requirements.txt
+```
 
-Main ideas:
-- Retrieve semantically similar messages
-- Pass retrieved context into the prompt
-- Generate a spam/ham prediction with explanation
-- Compare retrieval-augmented predictions against baseline LLM outputs
+### Environment
 
-### 3. Prompt Engineering
+Create a `.env` file with the required credentials for API-backed modes:
 
-This stage evaluates how prompt design affects model behavior and classification performance.
+```env
+OPENAI_API_KEY=...
+PINECONE_API_KEY=...
+PINECONE_INDEX_NAME=sms-spam-bge384
+```
 
-Prompting strategies explored include:
-- Baseline prompts
-- Best-practice instruction prompts
-- Few-shot prompts
-- Prompt optimization workflows
+The offline classical baseline does not require OpenAI or Pinecone credentials.
 
-This stage highlights how prompt structure alone can influence decision quality, explanation clarity, and robustness.
+### Run CLI
 
-### 4. LoRA Fine-Tuning
+```bash
+python -m src.app
+```
 
-This stage adapts a compact language model to the SMS spam classification task using **Low-Rank Adaptation (LoRA)**.
+### Run Classical Baseline
 
-Main ideas:
-- Start from a pretrained instruct model
-- Fine-tune efficiently with LoRA
-- Compare base and fine-tuned behavior
-- Evaluate whether task-specific adaptation improves spam detection
+```bash
+python -m src.classical_baselines
+```
 
-This branch is included as an **experimental fine-tuned classifier**. In the current version of the project, the LoRA pipeline is fully integrated and runnable, but its spam recall is limited and it should not be interpreted as the strongest-performing method in this repository.
+### Run Offline Benchmark
 
-### 5. Multi-Agent Reasoning System
+```bash
+python -m src.benchmark --modes tfidf_lr --sample-size 200
+```
 
-The final stage integrates retrieval, filtering, classification, and verification into an advanced multi-agent workflow.
+### Run Small All-Mode Benchmark
 
-The agentic system supports:
-- Retrieving candidate evidence
-- Filtering or selecting relevant supporting examples
-- Performing classification
-- Verifying or refining the final decision
+This command calls API-backed modes and should be used intentionally:
 
-This creates a more structured reasoning pipeline than direct prompting or basic RAG alone.
+```bash
+python -m src.benchmark --modes tfidf_lr,base_llm,basic_rag,advanced_base,advanced_lora,guarded_fallback --sample-size 30
+```
 
-## Final System Modes
+### Run Qualitative Demo
 
-The final project compares several operating modes within one framework:
+```bash
+python -m src.run_comparison
+```
 
-- **Base LLM:** direct classification without retrieval
-- **Basic RAG:** retrieval-augmented classification using similar examples
-- **Advanced Agentic RAG (Base Model):** multi-agent workflow with the base model
-- **Advanced Agentic RAG (LoRA Model):** multi-agent workflow with the fine-tuned classifier
+## Notebook Structure
 
-This makes the repository a unified comparative framework rather than a collection of isolated assignments.
+- `notebooks/archive/` contains older development notebooks from the original project stages.
+- `notebooks/01_dataset_eda.ipynb` summarizes the dataset and explainability risk features.
+- `notebooks/02_baseline_and_benchmark_analysis.ipynb` analyzes benchmark metrics and confusion matrices.
+- `notebooks/03_error_analysis_and_system_insights.ipynb` analyzes prediction-level errors, LoRA failures, guarded fallback corrections, and risk-feature patterns.
 
-## Current Status
-
-The repository has been tested end to end in a clean Python 3.11 virtual environment.
-
-Verified working components:
-- Base LLM mode
-- Basic RAG mode
-- Pinecone retrieval and index connectivity
-- Advanced agentic RAG with the base model
-- Advanced agentic RAG with the LoRA model
-- Full multi-mode comparison flow
-
-Current behavior observed during testing:
-- The **base**, **basic RAG**, and **advanced base** modes correctly classify obvious spam examples
-- The **LoRA branch runs successfully**, but it shows weak spam recall and can misclassify obvious spam messages as `ham`
-
-Because of this, the LoRA branch is best interpreted as an **experimental fine-tuning extension**, while the retrieval-based and agentic-base workflows are currently the most reliable components of the system.
+The notebooks do not call OpenAI, Pinecone, or LoRA models. They read existing files from `data/` and `outputs/`. Source implementation remains in `src/`.
 
 ## Repository Structure
 
@@ -130,22 +155,35 @@ sms-spam-llm-system/
 ├── data/
 │   └── SMSSpamCollection
 ├── notebooks/
-│   ├── 01_vector_db_and_embeddings.ipynb
-│   ├── 02_rag_baselines.ipynb
-│   ├── 03_prompt_engineering.ipynb
-│   └── 04_lora_finetuning.ipynb
+│   ├── 01_dataset_eda.ipynb
+│   ├── 02_baseline_and_benchmark_analysis.ipynb
+│   ├── 03_error_analysis_and_system_insights.ipynb
+│   └── archive/
+│       ├── 01_vector_db_and_embeddings.ipynb
+│       ├── 02_rag_baselines.ipynb
+│       ├── 03_prompt_engineering.ipynb
+│       └── 04_lora_finetuning.ipynb
 ├── src/
+│   ├── __init__.py
 │   ├── agents.py
 │   ├── app.py
 │   ├── base_modes.py
+│   ├── benchmark.py
+│   ├── classical_baselines.py
 │   ├── config.py
 │   ├── evaluation.py
+│   ├── features.py
 │   ├── graph.py
 │   ├── lora_utils.py
 │   ├── pinecone_utils.py
 │   ├── prompts.py
 │   └── run_comparison.py
 ├── outputs/
+│   ├── baseline_tfidf_lr.joblib
+│   ├── benchmark_predictions.csv
+│   ├── benchmark_results.csv
+│   ├── benchmark_summary.md
+│   ├── confusion_matrices.png
 │   ├── comparison_results.md
 │   ├── discussion.md
 │   ├── graph.png
@@ -159,177 +197,42 @@ sms-spam-llm-system/
     └── README.md
 ```
 
-## Key Components
-
-### `notebooks/`
-
-Contains the method development stages that document the evolution of the project:
-
-- vector search and embedding experiments
-- retrieval-based spam classification
-- prompt engineering experiments
-- LoRA fine-tuning workflow
-
-### `src/`
-
-Contains the modular production-style system used for the final integrated pipeline:
-
-- app entry point
-- retrieval utilities
-- prompts
-- agent logic
-- graph workflow
-- evaluation and comparison scripts
-
-### `outputs/`
-
-Stores final diagrams, result summaries, and comparison artifacts.
-
-### `smollm2_spam_lora_adapter/`
-
-Contains the LoRA adapter produced during fine-tuning.
-
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/ZikunZheng1129/sms-spam-llm-system
-cd sms-spam-llm-system
-```
-
-### 2. Create and activate a virtual environment
-
-Using Python 3.11 is recommended.
-
-```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-```
-
-On Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure environment variables
-
-Create a `.env` file and add the required credentials.
-
-Example:
-
-```env
-PINECONE_API_KEY=your_key_here
-PINECONE_INDEX_NAME=sms-spam-bge384
-OPENAI_API_KEY=your_key_here
-```
-
-### 5. Run the application
-
-```bash
-python -m src.app
-```
-
-### 6. Run comparisons or evaluation
-
-```bash
-python -m src.run_comparison
-```
-
-## Example Workflow
-
-A typical end-to-end workflow in this project is:
-
-1. Load and preprocess the SMS Spam Collection dataset  
-2. Embed training messages and index them in a vector database  
-3. Retrieve similar examples for a new SMS query  
-4. Classify the message using:
-   - direct prompting
-   - RAG
-   - agentic RAG
-   - agentic RAG with a LoRA-adapted model  
-5. Compare outputs across modes in terms of label quality and explanation quality
-
-## Why This Project Matters
-
-Spam detection is a well-defined classification problem, but this project goes beyond a standard classifier. It examines how modern LLM system design choices affect practical decision-making on a real text classification task.
-
-This makes the repository useful as both:
-
-- a **machine learning engineering project**
-- a **comparative LLM systems study**
-
-The broader goal is not only to classify SMS messages accurately, but also to understand how retrieval, prompting, fine-tuning, and multi-step reasoning interact in a unified pipeline.
-
-## Results and Discussion
-
-The project is designed to compare:
-
-- direct LLM classification vs retrieval-supported classification
-- prompt-only improvement vs task-specific fine-tuning
-- simple single-step inference vs structured multi-agent reasoning
-
-From the current tested system behavior:
-
-- **Base LLM** correctly identifies obvious spam examples
-- **Basic RAG** improves grounding by using retrieved similar messages
-- **Advanced Agentic RAG (Base Model)** provides the strongest current combination of prediction quality and evidence-supported reasoning
-- **Advanced Agentic RAG (LoRA Model)** is fully integrated and operational, but currently underperforms on spam recall
-
-In the fine-tuning notebook, the saved LoRA adapter showed slightly higher overall accuracy than the base model on a very small test set, but both models failed on the available spam examples. In practice, this means the current fine-tuned model appears biased toward predicting `ham`, so its evaluation should be interpreted cautiously.
-
-The repository therefore emphasizes both **system design** and **honest comparison across methods**, rather than claiming that every branch outperforms the others.
-
 ## Limitations
 
-The current project has several important limitations:
-
-- The LoRA branch is integrated successfully, but its spam recall is limited in its current form
-- The fine-tuning evaluation in the notebook used a very small test split, so the reported metrics are not strong evidence of robust generalization
-- The advanced LoRA workflow currently uses the fine-tuned classifier inside the agentic pipeline, but retrieved evidence is not directly incorporated into the LoRA generation prompt itself
-- External services such as Pinecone and API-based LLM providers require environment configuration and valid credentials
-
-These limitations make the current repository best viewed as a **working comparative system and engineering prototype**, with clear opportunities for more rigorous evaluation and model improvement.
+- The all-mode benchmark shown above uses only 30 held-out samples because LLM/RAG calls cost money.
+- Results should be validated on a larger held-out test set before any production use.
+- The current LoRA adapter has poor spam recall on the benchmark slice.
+- Evidence-aware prompting alone did not fix the LoRA classifier's tendency to predict `ham`.
+- Full RAG and agentic modes require valid OpenAI and Pinecone configuration.
+- The LoRA loader uses a tokenizer fallback because the saved adapter tokenizer config contains a stale tokenizer class. The adapter itself is left unchanged.
+- The benchmark is useful for comparing system behavior, but it is not a substitute for broader evaluation, calibration, and robustness testing.
 
 ## Future Work
 
-There are several natural extensions to this project:
+- Run a larger benchmark over more of the held-out test set.
+- Retrain or improve the LoRA adapter with stronger spam recall objectives.
+- Calibrate verifier and fallback thresholds.
+- Add a local vector store option for fully offline RAG experiments.
+- Add CI tests for data loading, feature extraction, baseline metrics, and benchmark output schema.
+- Add an optional web UI for interactive comparison across modes.
 
-- Retrain the LoRA classifier with a stronger evaluation setup and a larger held-out test set
-- Add quantitative benchmark tables across all modes
-- Evaluate precision, recall, F1-score, and calibration
-- Improve spam recall for the fine-tuned model
-- Expand the agentic pipeline with more robust evidence ranking
-- Pass retrieved evidence directly into the LoRA classification prompt
-- Test additional embedding models and vector databases
-- Explore larger or instruction-specialized fine-tuned models
-- Add a user-facing web interface for interactive classification
-- Extend the framework to other short-text safety or moderation tasks
+## Security and Reproducibility
+
+- `.env` is ignored by `.gitignore`; secrets should never be committed.
+- Benchmark outputs are generated artifacts and should not contain API keys or other credentials.
+- Use environment variables or a local `.env` file for credentials.
+- Do not commit OpenAI keys, Pinecone keys, adapter-private data, or local logs.
 
 ## Skills Demonstrated
 
-This project demonstrates experience with:
-
-- Large language model application design
-- Retrieval-augmented generation (RAG)
-- Vector databases and embeddings
-- Prompt engineering
-- Parameter-efficient fine-tuning with LoRA
-- Multi-agent workflow design
-- Python-based ML system organization
-- Experimental comparison across multiple model strategies
-- Environment setup and end-to-end system validation
-
-## Notes
-
-This repository is the result of combining multiple assignment stages into one coherent project with a unified task, dataset, and system architecture. The final structure is intended to present the work as a single professional portfolio project rather than a collection of separate coursework submissions.
+- Classical NLP baselines with scikit-learn
+- LLM application design
+- Retrieval-augmented generation
+- Vector database integration
+- Agentic verification and fallback design
+- Parameter-efficient fine-tuning integration with LoRA
+- Quantitative benchmarking and error analysis
+- Notebook-based reporting for ML systems
 
 ## Acknowledgments
 

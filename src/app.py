@@ -1,5 +1,5 @@
 from src.base_modes import run_base_llm, run_basic_rag
-from src.evaluation import run_advanced_rag, run_all_modes
+from src.evaluation import run_advanced_rag, run_all_modes, run_guarded_fallback
 
 
 def main():
@@ -9,7 +9,8 @@ def main():
     print("2. basic_rag")
     print("3. advanced_base")
     print("4. advanced_lora")
-    print("5. all")
+    print("5. guarded_fallback")
+    print("6. all")
 
     mode = input("Enter mode: ").strip().lower()
     user_query = input("Enter an SMS message: ").strip()
@@ -38,7 +39,12 @@ def main():
         print("\n=== Advanced Agentic RAG (LoRA Model) ===")
         print(result["final_answer"])
 
-    elif mode == "5" or mode == "all":
+    elif mode == "5" or mode == "guarded_fallback":
+        result = run_guarded_fallback(user_query)
+        print("\n=== Guarded Fallback (LoRA -> Verify -> Base if unsupported) ===")
+        print(result["final_answer"])
+
+    elif mode == "6" or mode == "all":
         results = run_all_modes(user_query)
 
         print("\n=== Base LLM ===")
@@ -53,8 +59,14 @@ def main():
         print("\n=== Advanced Agentic RAG (LoRA Model) ===")
         print(results["advanced_rag_lora"]["final_answer"])
 
+        print("\n=== Guarded Fallback ===")
+        print(results["guarded_fallback"]["final_answer"])
+
     else:
-        print("Invalid mode. Please choose one of: base, basic_rag, advanced_base, advanced_lora, all.")
+        print(
+            "Invalid mode. Please choose one of: "
+            "base, basic_rag, advanced_base, advanced_lora, guarded_fallback, all."
+        )
 
 
 if __name__ == "__main__":
