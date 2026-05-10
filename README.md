@@ -55,16 +55,16 @@ The implementation stays in `src/`. The notebooks are analysis/reporting layers 
 
 ## Benchmark Results
 
-The table below comes from a **30-sample stratified held-out benchmark**. The sample was intentionally small to control API cost across LLM/RAG modes. These results should be read as a cost-controlled comparison slice, not as full-test-set production validation.
+The table below comes from a **75-sample stratified held-out benchmark**. The sample was intentionally limited to control API cost across LLM/RAG modes. These results should be read as a cost-controlled comparison slice, not as full-test-set production validation.
 
 | mode | n | accuracy | macro F1 | spam recall | ham recall | TP | FP | FN | TN | avg latency (s) |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| `tfidf_lr` | 30 | 0.9667 | 0.9191 | 0.7500 | 1.0000 | 3 | 0 | 1 | 26 | 0.0001 |
-| `base_llm` | 30 | 0.8667 | 0.7600 | 0.7500 | 0.8846 | 3 | 3 | 1 | 23 | 0.8539 |
-| `basic_rag` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 1.4625 |
-| `advanced_base` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 5.6724 |
-| `advanced_lora` | 30 | 0.8667 | 0.4643 | 0.0000 | 1.0000 | 0 | 0 | 4 | 26 | 11.0517 |
-| `guarded_fallback` | 30 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 4 | 0 | 0 | 26 | 11.3166 |
+| `tfidf_lr` | 75 | 0.9867 | 0.9699 | 0.9000 | 1.0000 | 9 | 0 | 1 | 65 | 0.0001 |
+| `base_llm` | 75 | 0.8800 | 0.7967 | 0.9000 | 0.8769 | 9 | 8 | 1 | 57 | 0.9988 |
+| `basic_rag` | 75 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 10 | 0 | 0 | 65 | 1.4964 |
+| `advanced_base` | 75 | 0.9867 | 0.9723 | 1.0000 | 0.9846 | 10 | 1 | 0 | 64 | 5.9119 |
+| `advanced_lora` | 75 | 0.8800 | 0.5585 | 0.1000 | 1.0000 | 1 | 0 | 9 | 65 | 10.7867 |
+| `guarded_fallback` | 75 | 0.9867 | 0.9723 | 1.0000 | 0.9846 | 10 | 1 | 0 | 64 | 11.7479 |
 
 Generated benchmark artifacts:
 
@@ -75,13 +75,14 @@ Generated benchmark artifacts:
 
 ## Key Findings
 
-- Retrieval improved LLM reliability on the 30-sample benchmark slice.
+- Retrieval improved LLM reliability on the 75-sample benchmark slice.
 - TF-IDF + Logistic Regression remained a strong and extremely fast classical baseline.
-- The base LLM was weaker without retrieval grounding.
+- The base LLM was weaker without retrieval grounding, mainly due to false positives.
 - Basic RAG and Advanced Base performed strongly on this benchmark sample.
-- The LoRA adapter is integrated and runnable, but it showed poor spam recall in this run.
+- The LoRA adapter is integrated and runnable, but it still showed weak spam recall (`0.1000`) in this run.
 - Evidence-aware prompting alone did not fix the LoRA classifier's ham bias.
-- Guarded fallback recovered the LoRA spam misses by using verifier-based fallback to the advanced base RAG workflow.
+- Guarded fallback reached `1.0000` spam recall, rescuing all 9 spam examples missed by LoRA.
+- Fallback was used on 11 of 75 rows: 9 spam rows and 2 ham rows.
 - System design matters as much as model choice: a small fine-tuned model does not automatically outperform RAG or a classical baseline.
 
 ## How to Run
@@ -127,7 +128,7 @@ python -m src.benchmark --modes tfidf_lr --sample-size 200
 This command calls API-backed modes and should be used intentionally:
 
 ```bash
-python -m src.benchmark --modes tfidf_lr,base_llm,basic_rag,advanced_base,advanced_lora,guarded_fallback --sample-size 30
+python -m src.benchmark --modes tfidf_lr,base_llm,basic_rag,advanced_base,advanced_lora,guarded_fallback --sample-size 75
 ```
 
 ### Run Qualitative Demo
@@ -199,7 +200,7 @@ sms-spam-llm-system/
 
 ## Limitations
 
-- The all-mode benchmark shown above uses only 30 held-out samples because LLM/RAG calls cost money.
+- The all-mode benchmark shown above uses 75 held-out samples because LLM/RAG calls cost money.
 - Results should be validated on a larger held-out test set before any production use.
 - The current LoRA adapter has poor spam recall on the benchmark slice.
 - Evidence-aware prompting alone did not fix the LoRA classifier's tendency to predict `ham`.
