@@ -23,5 +23,12 @@ MAX_RETRIES = 1
 DEFAULT_TEMPERATURE = 0
 
 BASE_HF_MODEL_NAME = "HuggingFaceTB/SmolLM2-1.7B-Instruct"
-# change to yours
-LORA_ADAPTER_PATH = str(Path(__file__).resolve().parent.parent / "smollm2_spam_lora_adapter")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_LORA_ADAPTER_PATH = REPO_ROOT / "smollm2_spam_lora_adapter_v2"
+
+_lora_adapter_path = Path(
+    os.getenv("LORA_ADAPTER_PATH", str(DEFAULT_LORA_ADAPTER_PATH))
+)
+if not _lora_adapter_path.is_absolute():
+    _lora_adapter_path = REPO_ROOT / _lora_adapter_path
+LORA_ADAPTER_PATH = str(_lora_adapter_path)

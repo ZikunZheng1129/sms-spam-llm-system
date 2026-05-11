@@ -1,0 +1,58 @@
+# LoRA v2 Training Summary
+
+- Base model: `HuggingFaceTB/SmolLM2-1.7B-Instruct`
+- New adapter: `smollm2_spam_lora_adapter_v2/`
+- Old adapter preserved: `smollm2_spam_lora_adapter/`
+- Train rows before oversampling: 4457
+- Train rows after oversampling: 6432
+- Validation rows: 557
+- Test rows: 558
+- Target train spam fraction: 0.4
+- Max length: 384
+- Target modules: `['q_proj', 'k_proj', 'v_proj', 'o_proj', 'gate_proj', 'up_proj', 'down_proj']`
+
+## Validation Metrics
+
+```json
+{
+  "accuracy": 0.9910233393177738,
+  "precision_macro": 0.9948770491803278,
+  "recall_macro": 0.9662162162162162,
+  "f1_macro": 0.9799428172239707,
+  "spam_precision": 1.0,
+  "spam_recall": 0.9324324324324325,
+  "ham_precision": 0.9897540983606558,
+  "ham_recall": 1.0,
+  "spam_f1": 0.965034965034965,
+  "ham_f1": 0.9948506694129764,
+  "tp": 69,
+  "fp": 0,
+  "fn": 5,
+  "tn": 483,
+  "unknown_count": 0,
+  "n": 557
+}
+```
+
+## Test Metrics
+
+```json
+{
+  "accuracy": 0.9910394265232975,
+  "precision_macro": 0.9845919778699862,
+  "recall_macro": 0.9845919778699862,
+  "f1_macro": 0.9845919778699862,
+  "spam_precision": 0.9733333333333334,
+  "spam_recall": 0.9733333333333334,
+  "ham_precision": 0.995850622406639,
+  "ham_recall": 0.995850622406639,
+  "spam_f1": 0.9733333333333334,
+  "ham_f1": 0.995850622406639,
+  "tp": 73,
+  "fp": 2,
+  "fn": 2,
+  "tn": 480,
+  "unknown_count": 1,
+  "n": 558
+}
+```

@@ -2,7 +2,9 @@
 
 The LoRA adapter at ``LORA_ADAPTER_PATH`` is attached to the base
 ``BASE_HF_MODEL_NAME`` model (SmolLM2-1.7B-Instruct) on first call and cached
-for the lifetime of the process via ``functools.lru_cache``.
+for the lifetime of the process via ``functools.lru_cache``. To compare
+different adapter paths, run each adapter in a separate Python process so the
+cached model cannot be reused across configurations.
 
 Evidence-aware prompting (Phase 1, v2):
     ``build_lora_question`` and ``generate_lora_response`` accept an optional
@@ -35,6 +37,11 @@ from src.config import BASE_HF_MODEL_NAME, LORA_ADAPTER_PATH  # noqa: E402
 @lru_cache(maxsize=1)
 def load_lora_model():
     """Load the base HF model and attach the LoRA adapter (cached per process).
+
+    ``LORA_ADAPTER_PATH`` is read from ``src.config`` at import time and the
+    loaded model is cached. CLI benchmark runs are separate Python processes,
+    so setting ``LORA_ADAPTER_PATH=...`` per command is the intended way to
+    compare adapters.
 
     The local adapter folder may have been saved by a PEFT version that wrote
     a ``tokenizer_class`` value (e.g. ``"TokenizersBackend"``) that newer

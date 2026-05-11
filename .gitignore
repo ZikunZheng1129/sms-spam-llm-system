@@ -10,3 +10,9 @@ outputs/_probe2/
 outputs/_probe*/
 *.log
 notebooks/*.executed.ipynb
+outputs/lora_v2_checkpoints/
+outputs/lora_v2_checkpoints*/
+checkpoint-*/
+**/checkpoint-*/
+wandb/
+runs/

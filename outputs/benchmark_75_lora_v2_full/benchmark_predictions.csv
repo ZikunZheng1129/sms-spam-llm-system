@@ -1,0 +1,1505 @@
+mode,sms_id,original_index,text,true_label,predicted_label,latency_seconds,raw_output,error_message,evidence_count,fallback_used,initial_lora_prediction,lora_verification,has_url,has_phone,has_currency,has_urgent_word,has_prize_word,has_call_instr,uppercase_ratio,exclamation_count,message_length
+tfidf_lr,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,0.0003,ham,,,,,,False,False,False,False,False,False,0.0278,0,50
+tfidf_lr,114,4886,Poor girl can't go one day lmao,ham,ham,0.0002,ham,,,,,,False,False,False,False,False,False,0.0417,0,31
+tfidf_lr,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,0.0002,spam,,,,,,False,True,True,True,False,True,0.1228,1,162
+tfidf_lr,140,3943,She's borderline but yeah whatever.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0345,0,35
+tfidf_lr,495,2535,Ok enjoy . R u there in home.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1,0,29
+tfidf_lr,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,1.0,0,115
+tfidf_lr,745,877,Are you in castor? You need to see something,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0571,0,44
+tfidf_lr,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0323,0,86
+tfidf_lr,441,3414,Where do you need to go to get it?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.04,0,34
+tfidf_lr,364,3398,Heehee that was so funny tho,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0435,0,28
+tfidf_lr,15,3977,I wish u were here. I feel so alone,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0769,0,35
+tfidf_lr,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,ham,0.0002,ham,,,,,,False,False,False,True,False,False,0.0478,1,306
+tfidf_lr,295,2255,Ok. Me watching tv too.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1176,0,23
+tfidf_lr,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0408,1,64
+tfidf_lr,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0484,0,77
+tfidf_lr,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,spam,0.0001,spam,,,,,,False,True,False,False,False,True,0.1481,0,89
+tfidf_lr,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,0.0001,spam,,,,,,False,True,True,True,True,True,0.1633,2,149
+tfidf_lr,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,0.0002,ham,,,,,,False,False,False,False,False,False,0.0314,0,290
+tfidf_lr,22,1703,I have lost 10 kilos as of today!,ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0435,1,33
+tfidf_lr,98,449,LOL ... Have you made plans for new years?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1333,0,42
+tfidf_lr,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0571,0,46
+tfidf_lr,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0417,0,95
+tfidf_lr,366,4207,"Get the door, I'm here",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.125,0,22
+tfidf_lr,644,2839,Were trying to find a Chinese food place around here,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0465,0,52
+tfidf_lr,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0571,0,141
+tfidf_lr,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,True,0.0444,0,56
+tfidf_lr,767,2168,Yes.he have good crickiting mind,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.037,0,32
+tfidf_lr,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.069,0,48
+tfidf_lr,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,0.0001,ham,,,,,,False,False,False,True,True,False,0.0263,0,53
+tfidf_lr,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,0.0001,spam,,,,,,False,True,True,True,True,True,0.3412,4,158
+tfidf_lr,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0494,3,111
+tfidf_lr,990,1363,What does the dance river do?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0435,0,29
+tfidf_lr,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.1698,0,69
+tfidf_lr,557,2387,No message..no responce..what happend?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0333,0,38
+tfidf_lr,963,2322,Ok...,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.5,0,5
+tfidf_lr,520,835,Surely result will offer:),ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0476,0,26
+tfidf_lr,793,4216,No dear i was sleeping :-P,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1053,0,26
+tfidf_lr,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0488,0,54
+tfidf_lr,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0357,0,37
+tfidf_lr,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0781,0,160
+tfidf_lr,443,2777,Send me your id and password,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,True,0.0435,0,28
+tfidf_lr,527,4306,Yo come over carlos will be here soon,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0333,0,37
+tfidf_lr,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0286,0,88
+tfidf_lr,122,3889,ok....take care.umma to you too...,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0,0,34
+tfidf_lr,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,0.0001,spam,,,,,,True,True,False,False,False,True,0.1636,0,152
+tfidf_lr,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0167,0,73
+tfidf_lr,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.039,0,103
+tfidf_lr,519,3834,I had askd u a question some hours before. Its answer,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0476,0,53
+tfidf_lr,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0426,0,121
+tfidf_lr,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,1.0,2,40
+tfidf_lr,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0455,0,86
+tfidf_lr,809,1346,Que pases un buen tiempo or something like that,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0256,0,47
+tfidf_lr,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0238,0,51
+tfidf_lr,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0648,3,157
+tfidf_lr,149,2745,"Tick, tick, tick ... Babe",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.125,0,25
+tfidf_lr,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0353,0,124
+tfidf_lr,537,1865,You call him now ok i said call him,ham,ham,0.0001,ham,,,,,,False,False,False,True,False,True,0.037,0,35
+tfidf_lr,118,4700,Yes fine ,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1429,0,9
+tfidf_lr,894,2741,Nothing. Can...,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.2,0,15
+tfidf_lr,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,0.0001,ham,,,,,,False,False,False,False,True,False,0.06,0,64
+tfidf_lr,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0233,0,57
+tfidf_lr,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.175,0,106
+tfidf_lr,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.1111,1,324
+tfidf_lr,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0755,1,147
+tfidf_lr,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,0.0001,spam,,,,,,False,True,True,True,True,True,0.2283,1,143
+tfidf_lr,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0079,0,161
+tfidf_lr,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,0.0001,ham,,,,,,False,False,False,True,False,False,0.0541,0,99
+tfidf_lr,581,4217,Er mw im filled tuth is aight,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0435,0,29
+tfidf_lr,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,0.0001,spam,,,,,,False,True,False,True,True,True,0.4124,3,149
+tfidf_lr,642,3833,Ok.,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.5,0,3
+tfidf_lr,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,0.0001,spam,,,,,,False,True,True,False,True,True,0.2456,1,158
+tfidf_lr,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,0.0001,spam,,,,,,False,True,True,True,False,True,0.3838,2,148
+tfidf_lr,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0417,0,37
+tfidf_lr,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.0351,1,71
+tfidf_lr,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,0.0001,ham,,,,,,False,False,False,False,False,False,0.2688,3,127
+base_llm,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,4.8003,"Label: ham  
+Explanation: The message appears to be a casual conversation about driving and going to school, which is typical of personal communication and not promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.0278,0,50
+base_llm,114,4886,Poor girl can't go one day lmao,ham,ham,1.1428,"Label: ham  
+Explanation: The message appears to be a casual conversation and does not contain any promotional content or malicious intent.",,,,,,False,False,False,False,False,False,0.0417,0,31
+base_llm,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,1.1017,"Label: spam  
+Explanation: The message promotes adult content and services, which are typically considered unsolicited and unwanted, classifying it as spam.",,,,,,False,True,True,True,False,True,0.1228,1,162
+base_llm,140,3943,She's borderline but yeah whatever.,ham,ham,1.8123,"Label: ham  
+Explanation: The message appears to be a casual conversation and does not contain any promotional content or malicious intent typical of spam.",,,,,,False,False,False,False,False,False,0.0345,0,35
+base_llm,495,2535,Ok enjoy . R u there in home.,ham,ham,2.0569,"Label: ham  
+Explanation: The message appears to be a casual conversation, asking if the recipient is home, which is typical of personal communication.",,,,,,False,False,False,False,False,False,0.1,0,29
+base_llm,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,1.0107,"Label: ham  
+Explanation: The message appears to be a personal communication expressing admiration and feelings, which is typical of a non-commercial, genuine interaction rather than spam.",,,,,,False,False,False,False,False,False,1.0,0,115
+base_llm,745,877,Are you in castor? You need to see something,ham,ham,6.6748,"Label: ham  
+Explanation: The message appears to be a personal inquiry, likely from a friend or acquaintance, rather than a promotional or unsolicited message.",,,,,,False,False,False,False,False,False,0.0571,0,44
+base_llm,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,0.6486,"Label: ham  
+Explanation: The message appears to be a personal communication expressing feelings and sharing a moment, which is typical of a conversation between friends or loved ones.",,,,,,False,False,False,True,False,False,0.0323,0,86
+base_llm,441,3414,Where do you need to go to get it?,ham,ham,1.5569,"Label: ham  
+Explanation: The message appears to be a legitimate inquiry about a location, lacking any promotional or unsolicited content typical of spam.",,,,,,False,False,False,False,False,False,0.04,0,34
+base_llm,364,3398,Heehee that was so funny tho,ham,ham,0.7454,"Label: ham  
+Explanation: The message appears to be a casual and friendly communication, likely between friends, without any promotional or malicious intent.",,,,,,False,False,False,False,False,False,0.0435,0,28
+base_llm,15,3977,I wish u were here. I feel so alone,ham,ham,0.8223,"Label: ham  
+Explanation: The message expresses a personal sentiment and emotional state, indicating a desire for companionship, which is typical of a genuine conversation rather than spam.",,,,,,False,False,False,False,False,False,0.0769,0,35
+base_llm,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,spam,1.1248,"Label: spam  
+Explanation: The message promotes a vague business opportunity involving investment and profit-sharing, which is characteristic of spam messages.",,,,,,False,False,False,True,False,False,0.0478,1,306
+base_llm,295,2255,Ok. Me watching tv too.,ham,ham,1.5351,"Label: ham  
+Explanation: The message is a casual response indicating that the sender is watching TV, which is typical of personal communication and does not contain any promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.1176,0,23
+base_llm,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,spam,1.7378,"Label: spam  
+Explanation: The message contains explicit and inappropriate content, which is characteristic of spam.",,,,,,False,False,False,False,False,False,0.0408,1,64
+base_llm,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,1.9455,"Label: ham  
+Explanation: The message appears to be a legitimate request for information related to a specific person and company, rather than a promotional or unsolicited message.",,,,,,False,False,False,False,False,False,0.0484,0,77
+base_llm,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,spam,1.0252,"Label: spam  
+Explanation: The message contains a user ID and instructions to send ""STOP"" to unsubscribe, which are common characteristics of unsolicited promotional messages.",,,,,,False,True,False,False,False,True,0.1481,0,89
+base_llm,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,1.6414,"Label: spam  
+Explanation: The message promotes a prize claim and includes a premium rate phone number, which is typical of spam messages designed to deceive recipients.",,,,,,False,True,True,True,True,True,0.1633,2,149
+base_llm,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,0.944,"Label: ham  
+Explanation: The message appears to be a personal conversation addressing a misunderstanding, rather than a promotional or unsolicited message typical of spam.",,,,,,False,False,False,False,False,False,0.0314,0,290
+base_llm,22,1703,I have lost 10 kilos as of today!,ham,ham,4.4751,"Label: ham  
+Explanation: The message appears to be a personal update about weight loss, which is typically not promotional or unsolicited content, indicating it is likely a genuine message.",,,,,,False,False,False,True,False,False,0.0435,1,33
+base_llm,98,449,LOL ... Have you made plans for new years?,ham,ham,1.0249,"Label: ham  
+Explanation: The message is a casual inquiry about New Year's plans, which is typical of friendly communication and does not contain any promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.1333,0,42
+base_llm,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,3.786,"Label: ham  
+Explanation: The message appears to be a casual conversation about voting for themes, which is typical of personal communication and does not promote any unwanted or unsolicited content.",,,,,,False,False,False,False,False,False,0.0571,0,46
+base_llm,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,0.7802,"Label: ham  
+Explanation: The message appears to be a casual conversation between friends, indicating a personal relationship rather than a promotional or unsolicited message.",,,,,,False,False,False,False,False,False,0.0417,0,95
+base_llm,366,4207,"Get the door, I'm here",ham,ham,1.2367,"Label: ham  
+Explanation: The message is a personal communication indicating someone's arrival, which is typical of a legitimate conversation.",,,,,,False,False,False,False,False,False,0.125,0,22
+base_llm,644,2839,Were trying to find a Chinese food place around here,ham,ham,1.1551,"Label: ham  
+Explanation: The message is a genuine inquiry about finding a restaurant and does not contain any promotional content or malicious intent.",,,,,,False,False,False,False,False,False,0.0465,0,52
+base_llm,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,0.6489,"Label: ham  
+Explanation: The message expresses a sentiment about friendship and does not contain any promotional content or solicitations typical of spam.",,,,,,False,False,False,True,False,False,0.0571,0,141
+base_llm,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,0.618,"Label: ham  
+Explanation: The message appears to be a personal request for information, which is typical of legitimate communication rather than spam.",,,,,,False,False,False,False,False,True,0.0444,0,56
+base_llm,767,2168,Yes.he have good crickiting mind,ham,ham,0.7533,"Label: ham  
+Explanation: The message appears to be a personal communication about someone's cricketing skills, which is typical of non-spam messages.",,,,,,False,False,False,False,False,False,0.037,0,32
+base_llm,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,0.9194,"Label: ham  
+Explanation: The message appears to be a casual conversation about dinner plans, which is typical of personal communication and not promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.069,0,48
+base_llm,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,0.9638,"Label: ham  
+Explanation: The message appears to be a personal communication about someone's plans, indicating they are not available, which is typical of a regular conversation.",,,,,,False,False,False,True,True,False,0.0263,0,53
+base_llm,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,1.0149,"Label: spam  
+Explanation: The message contains a prize notification and urges immediate action, which are common characteristics of spam messages.",,,,,,False,True,True,True,True,True,0.3412,4,158
+base_llm,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,1.0197,"Label: ham  
+Explanation: The message appears to be a personal conversation with a friendly tone, discussing sleep and expressing affection, which is typical of non-spam communication.",,,,,,False,False,False,True,False,False,0.0494,3,111
+base_llm,990,1363,What does the dance river do?,ham,ham,1.0237,"Label: ham  
+Explanation: The message appears to be a legitimate question about a dance-related topic, which does not fit the characteristics of spam.",,,,,,False,False,False,False,False,False,0.0435,0,29
+base_llm,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,0.6411,"Label: ham  
+Explanation: The message appears to be a personal communication about attending a movie, which is typical of non-spam messages.",,,,,,False,False,False,True,False,False,0.1698,0,69
+base_llm,557,2387,No message..no responce..what happend?,ham,ham,0.9016,"Label: ham  
+Explanation: The message appears to be a personal inquiry about someone's lack of response, which is typical of a conversation between acquaintances or friends, rather than a promotional or unsolicited message.",,,,,,False,False,False,False,False,False,0.0333,0,38
+base_llm,963,2322,Ok...,ham,ham,0.8099,"Label: ham  
+Explanation: The message is a simple acknowledgment and does not contain any promotional content or suspicious links typical of spam.",,,,,,False,False,False,False,False,False,0.5,0,5
+base_llm,520,835,Surely result will offer:),ham,ham,2.4251,"Label: ham  
+Explanation: The message appears to be a casual communication, likely discussing a positive outcome, and does not contain any promotional or unsolicited content typical of spam.",,,,,,False,False,False,False,False,False,0.0476,0,26
+base_llm,793,4216,No dear i was sleeping :-P,ham,ham,1.062,"Label: ham  
+Explanation: The message appears to be a casual conversation and does not contain any promotional content or malicious intent.",,,,,,False,False,False,False,False,False,0.1053,0,26
+base_llm,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,1.0153,"Label: ham  
+Explanation: The message appears to be a personal communication, likely from someone checking in on another person's activities, which is typical of non-spam messages.",,,,,,False,False,False,True,False,False,0.0488,0,54
+base_llm,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,0.981,"Label: ham  
+Explanation: The message appears to be a personal inquiry from someone named Wylie, likely asking about the recipient's location, which is typical of a friend or acquaintance.",,,,,,False,False,False,False,False,False,0.0357,0,37
+base_llm,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,spam,0.8926,"Label: spam  
+Explanation: The message promotes a callertune service, which is often associated with unsolicited marketing and can be considered spam.",,,,,,False,False,False,False,False,False,0.0781,0,160
+base_llm,443,2777,Send me your id and password,ham,spam,1.0965,"Label: spam  
+Explanation: The message requests sensitive information (id and password), which is a common tactic used in phishing scams.",,,,,,False,False,False,False,False,True,0.0435,0,28
+base_llm,527,4306,Yo come over carlos will be here soon,ham,ham,0.9475,"Label: ham  
+Explanation: The message appears to be a casual invitation to meet up, which is typical of personal communication and does not contain any promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.0333,0,37
+base_llm,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,1.3065,"Label: ham  
+Explanation: The message appears to be a personal communication regarding a financial matter, indicating it is likely from a known contact rather than unsolicited advertising or scams.",,,,,,False,False,False,False,False,False,0.0286,0,88
+base_llm,122,3889,ok....take care.umma to you too...,ham,ham,0.7208,"Label: ham  
+Explanation: The message appears to be a casual and friendly communication, likely between acquaintances or friends, without any promotional or malicious intent.",,,,,,False,False,False,False,False,False,0.0,0,34
+base_llm,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,0.9255,"Label: spam  
+Explanation: The message promotes a service and includes a link, which is typical of unsolicited promotional content.",,,,,,True,True,False,False,False,True,0.1636,0,152
+base_llm,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,0.9652,"Label: ham  
+Explanation: The message appears to be a casual and humorous text, likely from a friend or acquaintance, rather than a promotional or unsolicited message.",,,,,,False,False,False,False,False,False,0.0167,0,73
+base_llm,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,1.0688,"Label: ham  
+Explanation: The message appears to be a casual conversation about a TV show and personal feelings, which is typical of regular communication between friends.",,,,,,False,False,False,False,False,False,0.039,0,103
+base_llm,519,3834,I had askd u a question some hours before. Its answer,ham,ham,1.6829,"Label: ham  
+Explanation: The message appears to be a follow-up to a previous conversation, indicating a personal communication rather than unsolicited or promotional content.",,,,,,False,False,False,False,False,False,0.0476,0,53
+base_llm,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,0.9805,"Label: ham  
+Explanation: The message appears to be a personal conversation or expression of concern, rather than a promotional or unsolicited message typical of spam.",,,,,,False,False,False,False,False,False,0.0426,0,121
+base_llm,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,0.9998,"Label: ham  
+Explanation: The message appears to be a casual conversation about a night out, with no promotional content or suspicious links, indicating it is likely a personal message.",,,,,,False,False,False,False,False,False,1.0,2,40
+base_llm,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,1.5184,"Label: ham  
+Explanation: The message appears to be a casual conversation about making plans, which is typical of personal communication and not promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.0455,0,86
+base_llm,809,1346,Que pases un buen tiempo or something like that,ham,ham,1.3726,"Label: ham  
+Explanation: The message appears to be a friendly wish for someone to have a good time, which is typical of personal communication and not promotional or unsolicited content.",,,,,,False,False,False,False,False,False,0.0256,0,47
+base_llm,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,1.3344,"Label: ham  
+Explanation: The message appears to be a personal communication, likely addressing a specific situation or request, rather than promoting a product or service.",,,,,,False,False,False,False,False,False,0.0238,0,51
+base_llm,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,1.0857,"Label: ham  
+Explanation: The message expresses affection and personal sentiment, indicating a genuine relationship rather than promotional or unsolicited content typical of spam.",,,,,,False,False,False,False,False,False,0.0648,3,157
+base_llm,149,2745,"Tick, tick, tick ... Babe",ham,ham,1.1628,"Label: ham  
+Explanation: The message appears to be a personal communication, likely between friends or acquaintances, and does not contain any promotional or unsolicited content typical of spam.",,,,,,False,False,False,False,False,False,0.125,0,25
+base_llm,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,1.2301,"Label: ham  
+Explanation: The message expresses affection and intimacy, indicating it is a personal communication rather than unsolicited or promotional content.",,,,,,False,False,False,False,False,False,0.0353,0,124
+base_llm,537,1865,You call him now ok i said call him,ham,ham,3.9795,"Label: ham  
+Explanation: The message appears to be a personal communication, likely a reminder or instruction to call someone, which is typical of non-spam messages.",,,,,,False,False,False,True,False,True,0.037,0,35
+base_llm,118,4700,Yes fine ,ham,ham,1.1401,"Label: ham  
+Explanation: The message is a simple confirmation and does not contain any promotional content or suspicious links typical of spam.",,,,,,False,False,False,False,False,False,0.1429,0,9
+base_llm,894,2741,Nothing. Can...,ham,ham,0.6133,"Label: ham  
+Explanation: The message appears to be incomplete and does not contain any promotional content or suspicious links typically associated with spam.",,,,,,False,False,False,False,False,False,0.2,0,15
+base_llm,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,0.8183,"Label: ham  
+Explanation: The message appears to be a personal conversation about running out of gas and financial matters, which is typical of legitimate communication between individuals.",,,,,,False,False,False,False,True,False,0.06,0,64
+base_llm,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,spam,1.0221,"Label: spam  
+Explanation: The message appears to be asking for sensitive information, such as account details, which is a common tactic used in phishing scams.",,,,,,False,False,False,False,False,False,0.0233,0,57
+base_llm,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,spam,0.8186,"Label: spam  
+Explanation: The message promotes a health warning about a product in a sensational manner, which is typical of spam messages.",,,,,,False,False,False,False,False,False,0.175,0,106
+base_llm,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,spam,0.8237,"Label: spam  
+Explanation: The message contains irrelevant and misleading information, typical of spam, and is designed to engage the recipient in a nonsensical conversation.",,,,,,False,False,False,False,False,False,0.1111,1,324
+base_llm,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,spam,0.9241,"Label: spam  
+Explanation: The message contains suggestive and inappropriate content, which is typical of spam messages aimed at eliciting a reaction or promoting adult content.",,,,,,False,False,False,False,False,False,0.0755,1,147
+base_llm,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,0.7602,"Label: spam  
+Explanation: The message contains a prize claim that is typical of fraudulent schemes, urging immediate action and providing a premium-rate phone number, which are common characteristics of spam.",,,,,,False,True,True,True,True,True,0.2283,1,143
+base_llm,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,0.8732,"Label: ham  
+Explanation: The message provides information about an operating system that can be used for a specific purpose, which is helpful and not promotional or deceptive in nature.",,,,,,False,False,False,False,False,False,0.0079,0,161
+base_llm,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,0.8169,"Label: ham  
+Explanation: The message appears to be a personal communication from someone trying to reach the recipient, which is typical of non-spam messages.",,,,,,False,False,False,True,False,False,0.0541,0,99
+base_llm,581,4217,Er mw im filled tuth is aight,ham,ham,1.534,"Label: ham  
+Explanation: The message appears to be a casual text, possibly a typo-ridden personal message, rather than a promotional or unsolicited message typical of spam.",,,,,,False,False,False,False,False,False,0.0435,0,29
+base_llm,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,1.9716,"Label: spam  
+Explanation: The message promotes an auction for a mobile phone and includes a call to action with a premium rate number, which is typical of spam messages.",,,,,,False,True,False,True,True,True,0.4124,3,149
+base_llm,642,3833,Ok.,ham,ham,1.2959,"Label: ham  
+Explanation: The message is a simple acknowledgment and does not contain any promotional content or suspicious links typical of spam.",,,,,,False,False,False,False,False,False,0.5,0,3
+base_llm,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,0.9303,"Label: spam  
+Explanation: The message is unsolicited and promotes a financial award that requires a phone call, which is a common tactic used in scams.",,,,,,False,True,True,False,True,True,0.2456,1,158
+base_llm,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,2.6418,"Label: spam  
+Explanation: The message promotes a mobile phone offer and includes a call to action with a premium rate text number, which is typical of spam messages.",,,,,,False,True,True,True,False,True,0.3838,2,148
+base_llm,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,1.4564,"Label: ham  
+Explanation: The message appears to be a notification about a match starting, likely related to a sports event, which is a legitimate communication rather than unsolicited advertising or scams.",,,,,,False,False,False,False,False,False,0.0417,0,37
+base_llm,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,ham,1.3297,"Label: ham  
+Explanation: The message is a straightforward advertisement for a dartboard, which is a common type of personal sale and does not contain any spammy characteristics.",,,,,,False,False,False,False,False,False,0.0351,1,71
+base_llm,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,2.3565,"Label: ham  
+Explanation: The message appears to be a playful or humorous exchange between acquaintances, likely discussing a work-related topic, rather than promoting a product or service.",,,,,,False,False,False,False,False,False,0.2688,3,127
+basic_rag,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,3.5158,"Label: ham  
+Explanation: The SMS message is a casual conversation about driving to school, similar in context and language to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0278,0,50
+basic_rag,114,4886,Poor girl can't go one day lmao,ham,ham,1.8347,"Label: ham  
+Explanation: The SMS message ""Poor girl can't go one day lmao"" is identical to Document 1, which is classified as ham with a high score. This indicates that the message is likely a casual conversation rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0417,0,31
+basic_rag,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,2.2165,"Label: spam  
+Explanation: The SMS message contains explicit content and promotes a service related to adult activities, similar to the retrieved examples, all of which are classified as spam.",,5.0,,,,False,True,True,True,False,True,0.1228,1,162
+basic_rag,140,3943,She's borderline but yeah whatever.,ham,ham,1.8701,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is labeled as ham, indicating that it is a normal conversation rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0345,0,35
+basic_rag,495,2535,Ok enjoy . R u there in home.,ham,ham,1.5253,"Label: ham  
+Explanation: The SMS message closely matches the content and context of the retrieved examples, which are all classified as ham. It appears to be a casual conversation, indicating that it is not spam.",,5.0,,,,False,False,False,False,False,False,0.1,0,29
+basic_rag,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,1.3486,"Label: ham  
+Explanation: The SMS message expresses personal feelings and compliments, similar to the retrieved examples that are classified as ham, indicating it is a genuine message rather than promotional or malicious content.",,5.0,,,,False,False,False,False,False,False,1.0,0,115
+basic_rag,745,877,Are you in castor? You need to see something,ham,ham,2.155,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is classified as ham with a high score, indicating it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0571,0,44
+basic_rag,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,1.5319,"Label: ham  
+Explanation: The SMS message is a personal communication expressing feelings and sharing a casual update, similar to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,True,False,False,0.0323,0,86
+basic_rag,441,3414,Where do you need to go to get it?,ham,ham,1.8725,"Label: ham  
+Explanation: The SMS message ""Where do you need to go to get it?"" is similar in structure and intent to the retrieved examples, all of which are classified as ham. It appears to be a casual inquiry rather than a promotional or unsolicited message.",,5.0,,,,False,False,False,False,False,False,0.04,0,34
+basic_rag,364,3398,Heehee that was so funny tho,ham,ham,1.5521,"Label: ham  
+Explanation: The SMS message ""Heehee that was so funny tho"" is identical to Document 1, which is labeled as ham, indicating it is a genuine, non-spam message expressing amusement.",,5.0,,,,False,False,False,False,False,False,0.0435,0,28
+basic_rag,15,3977,I wish u were here. I feel so alone,ham,ham,1.5518,"Label: ham  
+Explanation: The SMS message expresses feelings of loneliness and a desire for someone's presence, which aligns with the emotional and personal nature of the retrieved examples, all of which are classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0769,0,35
+basic_rag,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,ham,1.6479,"Label: ham  
+Explanation: The SMS message discusses a potential business partnership involving car shipping and investment, which aligns with the context of the retrieved examples that are also about personal or business communications.",,5.0,,,,False,False,False,True,False,False,0.0478,1,306
+basic_rag,295,2255,Ok. Me watching tv too.,ham,ham,2.1157,"Label: ham  
+Explanation: The SMS message ""Ok. Me watching tv too."" is identical to Document 1, which is labeled as ham. Additionally, the context of the message aligns with other retrieved examples that are also classified as ham, indicating a casual conversation about watching TV.",,5.0,,,,False,False,False,False,False,False,0.1176,0,23
+basic_rag,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,ham,1.4618,"Label: ham  
+Explanation: The SMS message contains flirtatious and sexual language, similar to the retrieved examples, which are also classified as ham. The context suggests a consensual and intimate conversation rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0408,1,64
+basic_rag,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,2.188,"Label: ham  
+Explanation: The SMS message is a request for specific information related to a person's date of birth and company bank facilities, which aligns with the context of the retrieved examples that are classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0484,0,77
+basic_rag,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,spam,1.1981,"Label: spam  
+Explanation: The SMS message contains a unique user ID and instructions to send ""STOP"" to a specific number for removal, which is characteristic of spam messages. Additionally, it matches the content of a retrieved example that is labeled as spam.",,5.0,,,,False,True,False,False,False,True,0.1481,0,89
+basic_rag,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,3.3096,"Label: spam  
+Explanation: The SMS message contains phrases commonly associated with spam, such as ""£1000 winner,"" ""Guaranteed Caller Prize,"" and urges the recipient to call a premium rate number, which matches the characteristics of the retrieved spam examples.",,5.0,,,,False,True,True,True,True,True,0.1633,2,149
+basic_rag,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,1.8287,"Label: ham  
+Explanation: The SMS message contains personal communication and emotional content, similar to the retrieved examples, which are all classified as ham. It discusses a specific situation and expresses feelings, indicating it is a conversation rather than unsolicited or promotional content typical of spam.",,5.0,,,,False,False,False,False,False,False,0.0314,0,290
+basic_rag,22,1703,I have lost 10 kilos as of today!,ham,ham,1.8584,"Label: ham  
+Explanation: The SMS message expresses a personal achievement related to weight loss, similar to the retrieved examples, which all convey personal experiences or feelings about weight loss and are classified as ham.",,5.0,,,,False,False,False,True,False,False,0.0435,1,33
+basic_rag,98,449,LOL ... Have you made plans for new years?,ham,ham,1.4307,"Label: ham  
+Explanation: The SMS message is a casual inquiry about New Year's plans, similar to the retrieved examples, which are all classified as ham and reflect personal communication.",,5.0,,,,False,False,False,False,False,False,0.1333,0,42
+basic_rag,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,2.2424,"Label: ham  
+Explanation: The SMS message is a casual inquiry about voting for themes, similar to Document 1, which is also classified as ham. It does not contain promotional content or solicitations typical of spam messages.",,5.0,,,,False,False,False,False,False,False,0.0571,0,46
+basic_rag,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,1.4346,"Label: ham  
+Explanation: The SMS message is a casual conversation between two people, similar in tone and context to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0417,0,95
+basic_rag,366,4207,"Get the door, I'm here",ham,ham,1.8619,"Label: ham  
+Explanation: The SMS message ""Get the door, I'm here"" is a direct and personal communication, similar to the retrieved examples which all indicate casual, non-commercial interactions.",,5.0,,,,False,False,False,False,False,False,0.125,0,22
+basic_rag,644,2839,Were trying to find a Chinese food place around here,ham,ham,1.9301,"Label: ham  
+Explanation: The SMS message is a request for information about a Chinese food place, similar to the retrieved examples that also express a desire to find food, indicating it is a normal conversation rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0465,0,52
+basic_rag,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,1.7401,"Label: ham  
+Explanation: The SMS message is identical to the first two retrieved examples, which are both classified as ham. The content expresses a sentiment about friendship, which is typically considered non-spam.",,5.0,,,,False,False,False,True,False,False,0.0571,0,141
+basic_rag,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,1.6414,"Label: ham  
+Explanation: The SMS message is a request for information about a company name, similar in nature to the retrieved examples, which are all classified as ham and involve personal communication or inquiries.",,5.0,,,,False,False,False,False,False,True,0.0444,0,56
+basic_rag,767,2168,Yes.he have good crickiting mind,ham,ham,1.5716,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is classified as ham with a high score, indicating it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.037,0,32
+basic_rag,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,1.6884,"Label: ham  
+Explanation: The SMS message is a casual conversation about going to dinner, similar to the retrieved examples, which all indicate social plans and are classified as ham.",,5.0,,,,False,False,False,False,False,False,0.069,0,48
+basic_rag,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,1.575,"Label: ham  
+Explanation: The SMS message is similar in structure and content to the retrieved examples, which are all classified as ham. It expresses a personal situation regarding availability and family, indicating it is a normal communication rather than spam.",,5.0,,,,False,False,False,True,True,False,0.0263,0,53
+basic_rag,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,2.1294,"Label: spam  
+Explanation: The SMS message matches the characteristics of known spam messages, including the use of ""URGENT,"" a claim of winning a prize, and a request to call a premium-rate number.",,5.0,,,,False,True,True,True,True,True,0.3412,4,158
+basic_rag,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,1.5343,"Label: ham  
+Explanation: The SMS message is a casual and friendly conversation, similar in tone and content to the retrieved examples, which are all classified as ham. It does not contain any promotional or suspicious content typical of spam messages.",,5.0,,,,False,False,False,True,False,False,0.0494,3,111
+basic_rag,990,1363,What does the dance river do?,ham,ham,2.1471,"Label: ham  
+Explanation: The SMS message ""What does the dance river do?"" is identical to Document 1, which is classified as ham with a very high score, indicating it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0435,0,29
+basic_rag,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,1.1319,"Label: ham  
+Explanation: The SMS message is a personal communication about attending a movie, similar to the retrieved examples which are all classified as ham.",,5.0,,,,False,False,False,True,False,False,0.1698,0,69
+basic_rag,557,2387,No message..no responce..what happend?,ham,ham,1.3362,"Label: ham  
+Explanation: The SMS message is identical to multiple retrieved examples that are classified as ham, indicating it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0333,0,38
+basic_rag,963,2322,Ok...,ham,ham,1.3418,"Label: ham  
+Explanation: The SMS message ""Ok..."" matches multiple retrieved examples that are all classified as ham, indicating it is a normal, non-spam response.",,5.0,,,,False,False,False,False,False,False,0.5,0,5
+basic_rag,520,835,Surely result will offer:),ham,ham,2.3026,"Label: ham  
+Explanation: The SMS message ""Surely result will offer:)"" closely matches Document 1, which is also labeled as ham, indicating that it is likely a friendly or casual message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0476,0,26
+basic_rag,793,4216,No dear i was sleeping :-P,ham,ham,1.4698,"Label: ham  
+Explanation: The SMS message is a casual conversation indicating that the sender was sleeping, similar to the retrieved examples which all reflect personal, non-commercial communication.",,5.0,,,,False,False,False,False,False,False,0.1053,0,26
+basic_rag,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,1.4682,"Label: ham  
+Explanation: The SMS message closely matches the content of Document 1, which is labeled as ham, indicating that it is a normal conversation rather than spam.",,5.0,,,,False,False,False,True,False,False,0.0488,0,54
+basic_rag,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,2.0135,"Label: ham  
+Explanation: The SMS message is a personal inquiry from someone named Wylie about the recipient's location, which aligns with the context of the retrieved examples that are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0357,0,37
+basic_rag,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,ham,2.1391,"Label: ham  
+Explanation: The SMS message is identical to multiple retrieved examples that are classified as ham, indicating it is a legitimate message regarding a callertune request.",,5.0,,,,False,False,False,False,False,False,0.0781,0,160
+basic_rag,443,2777,Send me your id and password,ham,ham,1.5431,"Label: ham  
+Explanation: The message ""Send me your id and password"" is similar to the retrieved examples, which also request personal information but are classified as ham. The context suggests a legitimate request rather than a spam attempt.",,5.0,,,,False,False,False,False,False,True,0.0435,0,28
+basic_rag,527,4306,Yo come over carlos will be here soon,ham,ham,1.2289,"Label: ham  
+Explanation: The SMS message is a casual invitation to come over, similar to the retrieved examples which all involve communication about someone named Carlos and are classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0333,0,37
+basic_rag,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,1.5343,"Label: ham  
+Explanation: The SMS message closely matches Document 1, which is labeled as ham. It discusses personal matters and financial expectations, typical of non-spam communication.",,5.0,,,,False,False,False,False,False,False,0.0286,0,88
+basic_rag,122,3889,ok....take care.umma to you too...,ham,ham,1.4087,"Label: ham  
+Explanation: The SMS message is a casual and friendly response, similar in tone and content to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0,0,34
+basic_rag,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,2.0027,"Label: spam  
+Explanation: The SMS message closely matches multiple retrieved examples that have been classified as spam, containing similar phrases and structure related to unsolicited services and promotional content.",,5.0,,,,True,True,False,False,False,True,0.1636,0,152
+basic_rag,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,1.4034,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is classified as ham with a high score, indicating it is a legitimate and non-spam message.",,5.0,,,,False,False,False,False,False,False,0.0167,0,73
+basic_rag,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,1.2516,"Label: ham  
+Explanation: The SMS message closely matches the content and style of the retrieved examples, which are all classified as ham. The informal language and context suggest a casual conversation rather than spam.",,5.0,,,,False,False,False,False,False,False,0.039,0,103
+basic_rag,519,3834,I had askd u a question some hours before. Its answer,ham,ham,2.4326,"Label: ham  
+Explanation: The SMS message is identical to multiple retrieved examples that are classified as ham, indicating it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0476,0,53
+basic_rag,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,1.5404,"Label: ham  
+Explanation: The SMS message closely resembles the retrieved examples, which all discuss personal experiences and feelings related to smoking. The context suggests a conversation rather than promotional or unsolicited content typical of spam.",,5.0,,,,False,False,False,False,False,False,0.0426,0,121
+basic_rag,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,1.8638,"Label: ham  
+Explanation: The SMS message expresses a casual and positive sentiment about a night without conflicts, similar to the retrieved examples which also convey personal experiences and friendly communication.",,5.0,,,,False,False,False,False,False,False,1.0,2,40
+basic_rag,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,1.3022,"Label: ham  
+Explanation: The SMS message contains casual conversation about meeting plans and reservations, similar to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0455,0,86
+basic_rag,809,1346,Que pases un buen tiempo or something like that,ham,ham,1.4681,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is classified as ham, indicating that it is a normal, non-spam message.",,5.0,,,,False,False,False,False,False,False,0.0256,0,47
+basic_rag,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,2.1854,"Label: ham  
+Explanation: The SMS message is identical to Document 1, which is classified as ham, indicating that it is a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0238,0,51
+basic_rag,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,2.1873,"Label: ham  
+Explanation: The SMS message expresses affection and romantic sentiments similar to the retrieved examples, which are all classified as ham. The language used is personal and loving, indicating it is a genuine message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.0648,3,157
+basic_rag,149,2745,"Tick, tick, tick ... Babe",ham,ham,2.1821,"Label: ham  
+Explanation: The SMS message ""Tick, tick, tick ... Babe"" matches the content and tone of the retrieved examples labeled as ham, particularly Document 1, which is identical. The use of ""Babe"" and the playful tone suggest a personal message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.125,0,25
+basic_rag,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,1.1922,"Label: ham  
+Explanation: The SMS message expresses affection and love in a personal and intimate manner, similar to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0353,0,124
+basic_rag,537,1865,You call him now ok i said call him,ham,ham,2.3514,"Label: ham  
+Explanation: The SMS message closely resembles the retrieved examples, which are all classified as ham. It appears to be a personal communication rather than promotional or unsolicited content.",,5.0,,,,False,False,False,True,False,True,0.037,0,35
+basic_rag,118,4700,Yes fine ,ham,ham,1.8414,"Label: ham  
+Explanation: The SMS message ""Yes fine"" is identical to Document 1, which is labeled as ham, indicating that it is a normal, non-spam response. Additionally, the other retrieved examples also show similar conversational responses that are classified as ham.",,5.0,,,,False,False,False,False,False,False,0.1429,0,9
+basic_rag,894,2741,Nothing. Can...,ham,ham,1.2274,"Label: ham  
+Explanation: The SMS message ""Nothing. Can..."" closely matches Document 1, which is also labeled as ham, indicating that it is likely a legitimate message rather than spam.",,5.0,,,,False,False,False,False,False,False,0.2,0,15
+basic_rag,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,1.5359,"Label: ham  
+Explanation: The SMS message closely matches the content and context of the retrieved examples, which are all classified as ham. It discusses a personal situation regarding gas and cash, indicating a normal conversation rather than spam.",,5.0,,,,False,False,False,False,True,False,0.06,0,64
+basic_rag,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,ham,1.8434,"Label: ham  
+Explanation: The SMS message is a casual inquiry about transferring account details, similar in tone and content to the retrieved examples, which are all classified as ham.",,5.0,,,,False,False,False,False,False,False,0.0233,0,57
+basic_rag,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,ham,1.4335,"Label: ham  
+Explanation: The SMS message is consistent with the retrieved examples, which are all classified as ham. It provides health-related advice from a doctor, which is typical of non-spam messages.",,5.0,,,,False,False,False,False,False,False,0.175,0,106
+basic_rag,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,ham,2.2301,"Label: ham  
+Explanation: The SMS message is a playful and humorous text that shares a fun fact about the word ""HELLO"" and its historical context, similar to the retrieved examples that are also classified as ham. It does not contain any promotional content or requests typical of spam messages.",,5.0,,,,False,False,False,False,False,False,0.1111,1,324
+basic_rag,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,ham,1.3609,"Label: ham  
+Explanation: The SMS message closely matches Document 1, which is labeled as ham. It contains playful and flirtatious language without any promotional or unsolicited content typical of spam messages.",,5.0,,,,False,False,False,False,False,False,0.0755,1,147
+basic_rag,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,1.8438,"Label: spam  
+Explanation: The SMS message matches multiple retrieved examples that are classified as spam, all containing similar language and structure, indicating it is likely a fraudulent prize notification.",,5.0,,,,False,True,True,True,True,True,0.2283,1,143
+basic_rag,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,1.5644,"Label: ham  
+Explanation: The SMS message provides helpful information about an operating system that can be used to recover important files, similar to the context of the retrieved examples, which also discuss technical issues and solutions related to computers.",,5.0,,,,False,False,False,False,False,False,0.0079,0,161
+basic_rag,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,1.3021,"Label: ham  
+Explanation: The SMS message is a personal communication asking for a missed call, similar to the retrieved examples which are all classified as ham and involve personal requests or updates.",,5.0,,,,False,False,False,True,False,False,0.0541,0,99
+basic_rag,581,4217,Er mw im filled tuth is aight,ham,ham,1.4862,"Label: ham  
+Explanation: The SMS message closely resembles the retrieved examples, particularly Document 1, which is identical. The informal language and style are consistent with casual communication, indicating it is not spam.",,5.0,,,,False,False,False,False,False,False,0.0435,0,29
+basic_rag,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,1.7249,"Label: spam  
+Explanation: The SMS message is identical to multiple retrieved examples that have been classified as spam, indicating it is likely part of a fraudulent auction scheme.",,5.0,,,,False,True,False,True,True,True,0.4124,3,149
+basic_rag,642,3833,Ok.,ham,ham,1.275,"Label: ham  
+Explanation: The SMS message ""Ok."" matches multiple retrieved examples that are classified as ham, indicating it is a legitimate and non-spam message.",,5.0,,,,False,False,False,False,False,False,0.5,0,3
+basic_rag,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,1.5572,"Label: spam  
+Explanation: The SMS message matches the content and structure of previously classified spam messages, specifically offering a monetary award and requesting a call to a premium rate number, which is a common characteristic of spam.",,5.0,,,,False,True,True,False,True,True,0.2456,1,158
+basic_rag,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,1.5077,"Label: spam  
+Explanation: The SMS message contains promotional content for a mobile phone at a low price, includes instructions to text a specific word to a number, and has characteristics typical of spam messages, as evidenced by the retrieved examples which are all classified as spam.",,5.0,,,,False,True,True,True,False,True,0.3838,2,148
+basic_rag,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,2.2755,"Label: ham  
+Explanation: The SMS message ""Match started.india  &lt;#&gt;  for 2"" is similar to the retrieved examples, which are all classified as ham and relate to cricket matches, indicating that this message is likely a legitimate update about a match.",,5.0,,,,False,False,False,False,False,False,0.0417,0,37
+basic_rag,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,spam,1.2647,"Label: spam  
+Explanation: The SMS message matches exactly with Document 1, which is classified as spam with a high score of 0.9976.",,5.0,,,,False,False,False,False,False,False,0.0351,1,71
+basic_rag,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,1.2486,"Label: ham  
+Explanation: The SMS message is conversational and playful in nature, similar to the retrieved examples that are classified as ham. It does not contain any promotional content or suspicious elements typical of spam messages.",,5.0,,,,False,False,False,False,False,False,0.2688,3,127
+advanced_base,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,20.5443,"Prediction: HAM
+Explanation: The message is a casual conversation about driving to school, indicating a personal context and no promotional or deceptive intent.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,0.0278,0,50
+advanced_base,114,4886,Poor girl can't go one day lmao,ham,ham,5.595,"Prediction: HAM
+Explanation: The message expresses a casual sentiment about a girl, using informal language, indicating a personal conversation rather than a promotional or malicious intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0417,0,31
+advanced_base,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,5.8354,"Prediction: SPAM
+Explanation: The SMS promotes a sexual service and includes a call to action with a premium rate number, which is characteristic of spam.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,True,False,True,0.1228,1,162
+advanced_base,140,3943,She's borderline but yeah whatever.,ham,ham,5.4949,"Prediction: HAM
+Explanation: The message expresses a personal opinion or sentiment without any promotional or deceptive intent, indicating it is a casual conversation.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0345,0,35
+advanced_base,495,2535,Ok enjoy . R u there in home.,ham,ham,7.0311,"Prediction: HAM
+Explanation: The SMS is a casual conversation asking if someone is home, indicating a friendly intent.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.1,0,29
+advanced_base,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,8.6687,"Prediction: HAM
+Explanation: The message expresses personal feelings and compliments, indicating a friendly or romantic intent rather than a promotional or deceptive nature typical of spam.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,False,1.0,0,115
+advanced_base,745,877,Are you in castor? You need to see something,ham,ham,6.0395,"Prediction: HAM
+Explanation: The SMS is a personal message asking about someone's location and suggesting a meeting, which indicates a legitimate intent.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.0571,0,44
+advanced_base,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,6.2128,"Prediction: HAM
+Explanation: The message expresses personal feelings and a casual conversation, indicating a friendly tone without any spammy intent.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,True,False,False,0.0323,0,86
+advanced_base,441,3414,Where do you need to go to get it?,ham,ham,5.6673,"Prediction: HAM
+Explanation: The SMS is a straightforward inquiry about location, similar to other examples classified as ham, indicating a legitimate conversation.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.04,0,34
+advanced_base,364,3398,Heehee that was so funny tho,ham,ham,6.0427,"Prediction: HAM
+Explanation: The SMS expresses amusement and is casual in tone, similar to other examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0435,0,28
+advanced_base,15,3977,I wish u were here. I feel so alone,ham,ham,5.8346,"Prediction: HAM
+Explanation: The message expresses personal feelings of loneliness and a desire for companionship, which aligns with the characteristics of legitimate, emotional communication.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0769,0,35
+advanced_base,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,ham,6.3391,"Prediction: HAM
+Explanation: The message discusses a potential business partnership and does not exhibit typical spam characteristics such as unsolicited offers or scams.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,True,False,False,0.0478,1,306
+advanced_base,295,2255,Ok. Me watching tv too.,ham,ham,7.075,"Prediction: HAM
+Explanation: The SMS is a casual conversation about watching TV, similar to other examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.1176,0,23
+advanced_base,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,ham,8.2263,"Prediction: HAM
+Explanation: The message uses affectionate language and is consistent with other examples classified as ham, indicating a consensual and intimate conversation.
+Evidence examples used: 4
+Verification: unsupported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,False,0.0408,1,64
+advanced_base,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,9.0785,"Prediction: HAM
+Explanation: The message is a request for specific information, indicating a legitimate inquiry rather than a spam or scam attempt.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0484,0,77
+advanced_base,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,spam,9.7366,"Prediction: SPAM
+Explanation: The SMS contains a unique user ID and instructions to send 'STOP' to a short code, which is a common pattern in spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,False,False,False,True,0.1481,0,89
+advanced_base,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,7.1547,"Prediction: SPAM
+Explanation: The SMS contains a claim of winning a prize, urges immediate action, and includes a premium rate phone number, which are common characteristics of spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,True,True,True,0.1633,2,149
+advanced_base,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,8.2997,"Prediction: HAM
+Explanation: The message is a personal communication discussing a misunderstanding, showing emotional engagement and context, which indicates it is not spam.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,0.0314,0,290
+advanced_base,22,1703,I have lost 10 kilos as of today!,ham,ham,9.4219,"Prediction: HAM
+Explanation: The message expresses a personal achievement related to weight loss, which is a common and positive topic among friends.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,True,False,False,0.0435,1,33
+advanced_base,98,449,LOL ... Have you made plans for new years?,ham,ham,8.3967,"Prediction: HAM
+Explanation: The SMS is a casual inquiry about New Year's plans, which is typical of friendly conversation and shows no signs of spam or malicious intent.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.1333,0,42
+advanced_base,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,5.2506,"Prediction: HAM
+Explanation: The message is a casual inquiry about voting for themes, indicating a personal conversation rather than a promotional or deceptive intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0571,0,46
+advanced_base,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,5.601,"Prediction: HAM
+Explanation: The message has a casual and friendly tone, indicating a personal conversation rather than a promotional or deceptive intent.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,0.0417,0,95
+advanced_base,366,4207,"Get the door, I'm here",ham,ham,6.2582,"Prediction: HAM
+Explanation: The message is a straightforward communication indicating someone's arrival, similar to other examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.125,0,22
+advanced_base,644,2839,Were trying to find a Chinese food place around here,ham,ham,5.4272,"Prediction: HAM
+Explanation: The SMS expresses a genuine inquiry about finding a restaurant, which is a common and legitimate conversation.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,False,0.0465,0,52
+advanced_base,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,6.4389,"Prediction: HAM
+Explanation: The SMS expresses a heartfelt sentiment about friendship, which aligns with the tone and intent of genuine communication.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,True,False,False,0.0571,0,141
+advanced_base,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,6.2926,"Prediction: HAM
+Explanation: The message is a straightforward request for information, indicating a legitimate conversation.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,True,0.0444,0,56
+advanced_base,767,2168,Yes.he have good crickiting mind,ham,ham,9.2721,"Prediction: HAM
+Explanation: The message expresses a positive opinion about someone's cricketing skills, indicating a personal or friendly conversation.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.037,0,32
+advanced_base,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,7.3741,"Prediction: HAM
+Explanation: The SMS is a casual invitation to dinner, which is a common social interaction and lacks any spammy characteristics.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.069,0,48
+advanced_base,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,6.4485,"Prediction: HAM
+Explanation: The message expresses a personal schedule and a reason for unavailability, indicating a legitimate conversation.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,True,True,False,0.0263,0,53
+advanced_base,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,6.043,"Prediction: SPAM
+Explanation: The SMS contains urgent language, a prize claim, and a premium rate number, which are common characteristics of spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,True,True,True,0.3412,4,158
+advanced_base,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,8.0206,"Prediction: HAM
+Explanation: The message expresses a personal sentiment and casual conversation, indicating a friendly tone without any promotional or deceptive intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,True,False,False,0.0494,3,111
+advanced_base,990,1363,What does the dance river do?,ham,ham,10.3981,"Prediction: HAM
+Explanation: The SMS is a legitimate question seeking information, with no signs of spam or malicious intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0435,0,29
+advanced_base,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,5.9523,"Prediction: HAM
+Explanation: The message is a personal update about watching a movie, which indicates a social intent rather than a promotional or deceptive one.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,True,False,False,0.1698,0,69
+advanced_base,557,2387,No message..no responce..what happend?,ham,ham,7.679,"Prediction: HAM
+Explanation: The message expresses concern about a lack of communication, indicating a personal context rather than a promotional or deceptive intent.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0333,0,38
+advanced_base,963,2322,Ok...,ham,ham,5.6319,"Prediction: HAM
+Explanation: The SMS is a simple acknowledgment, consistent with previous examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.5,0,5
+advanced_base,520,835,Surely result will offer:),ham,ham,5.4246,"Prediction: HAM
+Explanation: The message expresses a positive sentiment and does not contain any spammy language or intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0476,0,26
+advanced_base,793,4216,No dear i was sleeping :-P,ham,ham,6.1471,"Prediction: HAM
+Explanation: The message is casual and personal, indicating a friendly conversation without any spammy intent.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,False,0.1053,0,26
+advanced_base,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,7.6785,"Prediction: HAM
+Explanation: The SMS is a casual inquiry about the recipient's current activities, similar to other examples classified as ham.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,True,False,False,0.0488,0,54
+advanced_base,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,10.2377,"Prediction: HAM
+Explanation: The message is a casual inquiry about someone's location, indicating a personal conversation rather than a promotional or deceptive intent.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,False,0.0357,0,37
+advanced_base,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,ham,5.8821,"Prediction: HAM
+Explanation: The SMS confirms a legitimate service request regarding a callertune, matching multiple examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0781,0,160
+advanced_base,443,2777,Send me your id and password,ham,spam,5.7905,"Prediction: SPAM
+Explanation: The request for an ID and password is suspicious and indicative of phishing attempts, which are common in spam messages.
+Evidence examples used: 4
+Verification: unsupported
+Classifier mode: base",,4.0,,,,False,False,False,False,False,True,0.0435,0,28
+advanced_base,527,4306,Yo come over carlos will be here soon,ham,ham,5.2331,"Prediction: HAM
+Explanation: The message is a casual invitation to meet a friend, indicating a social context without any spammy or malicious intent.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0333,0,37
+advanced_base,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,13.8328,"Prediction: HAM
+Explanation: The message is a personal communication regarding a change in plans and financial expectations, indicating a legitimate conversation.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0286,0,88
+advanced_base,122,3889,ok....take care.umma to you too...,ham,ham,6.6084,"Prediction: HAM
+Explanation: The message is casual and friendly, expressing care and concern, which aligns with typical personal communication.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0,0,34
+advanced_base,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,6.3979,"Prediction: SPAM
+Explanation: The SMS contains promotional language, a suspicious URL, and a common pattern of spam messages that offer text credits and include an unsubscribe option, indicating it is likely a scam.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,True,True,False,False,False,True,0.1636,0,152
+advanced_base,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,6.1807,"Prediction: HAM
+Explanation: The message is playful and personal, indicating a casual conversation rather than a promotional or deceptive intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0167,0,73
+advanced_base,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,10.1883,"Prediction: HAM
+Explanation: The SMS expresses a casual conversation about watching TV and joking, indicating a friendly tone without any promotional or deceptive intent.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.039,0,103
+advanced_base,519,3834,I had askd u a question some hours before. Its answer,ham,ham,5.4251,"Prediction: HAM
+Explanation: The message is a personal inquiry about a previous question, indicating a legitimate conversation.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.0476,0,53
+advanced_base,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,10.0742,"Prediction: HAM
+Explanation: The message expresses personal feelings and concerns about smoking, indicating a conversation among friends rather than a promotional or deceptive intent typical of spam.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.0426,0,121
+advanced_base,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,5.5906,"Prediction: HAM
+Explanation: The message expresses a personal experience and positive sentiment, indicating a casual conversation rather than spam.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,1.0,2,40
+advanced_base,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,5.5142,"Prediction: HAM
+Explanation: The message is a casual conversation about plans with a friend, showing no signs of spam or malicious intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0455,0,86
+advanced_base,809,1346,Que pases un buen tiempo or something like that,ham,ham,6.773,"Prediction: HAM
+Explanation: The message is a friendly wish for someone to have a good time, indicating a positive and personal intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0256,0,47
+advanced_base,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,5.8364,"Prediction: HAM
+Explanation: The message is straightforward and lacks any promotional or deceptive intent, indicating a personal communication.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0238,0,51
+advanced_base,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,6.1412,"Prediction: HAM
+Explanation: The SMS expresses affection and love in a personal and intimate manner, similar to the filtered evidence examples that are classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0648,3,157
+advanced_base,149,2745,"Tick, tick, tick ... Babe",ham,ham,7.0631,"Prediction: HAM
+Explanation: The SMS uses affectionate language and lacks any promotional or scam elements, indicating a personal message.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.125,0,25
+advanced_base,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,6.8676,"Prediction: HAM
+Explanation: The SMS expresses affection and intimacy, similar to other examples classified as ham, indicating a personal and loving tone.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.0353,0,124
+advanced_base,537,1865,You call him now ok i said call him,ham,ham,9.4224,"Prediction: HAM
+Explanation: The SMS is a straightforward request for someone to make a phone call, indicating a personal communication rather than a promotional or deceptive intent.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,True,False,True,0.037,0,35
+advanced_base,118,4700,Yes fine ,ham,ham,8.4949,"Prediction: HAM
+Explanation: The SMS is a simple affirmative response, similar to other examples classified as ham, indicating a normal conversation.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.1429,0,9
+advanced_base,894,2741,Nothing. Can...,ham,ham,10.1575,"Prediction: HAM
+Explanation: The SMS is a continuation of a conversation and lacks any promotional or suspicious content, indicating a legitimate communication.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.2,0,15
+advanced_base,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,6.1248,"Prediction: HAM
+Explanation: The message discusses personal circumstances regarding gas and cash, indicating a casual conversation rather than a promotional or deceptive intent.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,True,False,0.06,0,64
+advanced_base,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,ham,8.8674,"Prediction: HAM
+Explanation: The message appears to be a casual conversation about transferring account details, which is typical of personal communication.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,0.0233,0,57
+advanced_base,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,ham,9.5409,"Prediction: HAM
+Explanation: The message appears to provide health advice from a doctor, which is typically considered legitimate communication.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.175,0,106
+advanced_base,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,ham,7.7009,"Prediction: HAM
+Explanation: The message is a playful and humorous take on the word 'hello' and its historical context, lacking any promotional or deceptive intent typical of spam.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.1111,1,324
+advanced_base,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,ham,8.0959,"Prediction: HAM
+Explanation: The SMS has a playful and flirtatious tone, similar to the examples classified as ham, indicating a personal conversation rather than a spam message.
+Evidence examples used: 3
+Verification: supported
+Classifier mode: base",,3.0,,,,False,False,False,False,False,False,0.0755,1,147
+advanced_base,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,10.0321,"Prediction: SPAM
+Explanation: The SMS contains urgent language, a promise of a prize, and a premium rate number, which are common characteristics of spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,True,True,True,0.2283,1,143
+advanced_base,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,7.5738,"Prediction: HAM
+Explanation: The message provides helpful information about an operating system and its use, indicating a legitimate intent.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0079,0,161
+advanced_base,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,28.037,"Prediction: HAM
+Explanation: The message is a personal communication asking for a callback, indicating a legitimate intent.
+Evidence examples used: 4
+Verification: supported
+Classifier mode: base",,4.0,,,,False,False,False,True,False,False,0.0541,0,99
+advanced_base,581,4217,Er mw im filled tuth is aight,ham,ham,7.0911,"Prediction: HAM
+Explanation: The message appears to be informal and personal, lacking characteristics of spam such as promotional content or suspicious links.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0435,0,29
+advanced_base,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,6.7251,"Prediction: SPAM
+Explanation: The SMS promotes a free auction for a Nokia phone, includes a call to action to text a number, and has similar patterns to previously classified spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,False,True,True,True,0.4124,3,149
+advanced_base,642,3833,Ok.,ham,ham,8.4258,"Prediction: HAM
+Explanation: The SMS is a simple acknowledgment and matches multiple examples classified as ham.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,False,False,False,False,False,0.5,0,3
+advanced_base,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,8.6225,"Prediction: SPAM
+Explanation: The SMS contains a promise of a monetary award and a request to call a premium rate number, which is typical of spam messages.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,False,True,True,0.2456,1,158
+advanced_base,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,6.1986,"Prediction: SPAM
+Explanation: The SMS promotes a mobile phone offer with a low price and requires the recipient to text a specific word to a premium number, which is characteristic of spam.
+Evidence examples used: 5
+Verification: supported
+Classifier mode: base",,5.0,,,,False,True,True,True,False,True,0.3838,2,148
+advanced_base,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,6.1135,"Prediction: HAM
+Explanation: The message indicates the start of a match, which is a neutral and informative statement, typical of sports updates.
+Evidence examples used: 2
+Verification: supported
+Classifier mode: base",,2.0,,,,False,False,False,False,False,False,0.0417,0,37
+advanced_base,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,spam,12.1578,"Prediction: SPAM
+Explanation: The message promotes a product for sale, which is often characteristic of spam messages.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.0351,1,71
+advanced_base,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,6.3499,"Prediction: HAM
+Explanation: The message appears to be a playful and humorous exchange, likely referencing a familiar relationship or inside joke, indicating it is not spam.
+Evidence examples used: 1
+Verification: supported
+Classifier mode: base",,1.0,,,,False,False,False,False,False,False,0.2688,3,127
+advanced_lora,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,26.5928,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,0.0278,0,50
+advanced_lora,114,4886,Poor girl can't go one day lmao,ham,ham,9.3202,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0417,0,31
+advanced_lora,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,19.5004,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,True,False,True,0.1228,1,162
+advanced_lora,140,3943,She's borderline but yeah whatever.,ham,ham,9.9928,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0345,0,35
+advanced_lora,495,2535,Ok enjoy . R u there in home.,ham,ham,22.6836,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.1,0,29
+advanced_lora,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,20.4071,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,1.0,0,115
+advanced_lora,745,877,Are you in castor? You need to see something,ham,ham,18.6087,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.0571,0,44
+advanced_lora,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,16.9045,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,False,False,0.0323,0,86
+advanced_lora,441,3414,Where do you need to go to get it?,ham,ham,9.4844,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.04,0,34
+advanced_lora,364,3398,Heehee that was so funny tho,ham,ham,10.2334,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0435,0,28
+advanced_lora,15,3977,I wish u were here. I feel so alone,ham,ham,13.6011,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0769,0,35
+advanced_lora,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,ham,10.5374,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,True,False,False,0.0478,1,306
+advanced_lora,295,2255,Ok. Me watching tv too.,ham,ham,12.7985,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.1176,0,23
+advanced_lora,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,ham,10.9614,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: unsupported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,0.0408,1,64
+advanced_lora,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,8.7811,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0484,0,77
+advanced_lora,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,ham,15.7641,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: unsupported
+Classifier mode: lora",,5.0,,,,False,True,False,False,False,True,0.1481,0,89
+advanced_lora,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,22.1457,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,True,True,True,0.1633,2,149
+advanced_lora,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,13.7128,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,0.0314,0,290
+advanced_lora,22,1703,I have lost 10 kilos as of today!,ham,ham,13.9073,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,False,False,0.0435,1,33
+advanced_lora,98,449,LOL ... Have you made plans for new years?,ham,ham,14.8711,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.1333,0,42
+advanced_lora,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,30.9822,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0571,0,46
+advanced_lora,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,9.4757,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,0.0417,0,95
+advanced_lora,366,4207,"Get the door, I'm here",ham,ham,12.4269,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.125,0,22
+advanced_lora,644,2839,Were trying to find a Chinese food place around here,ham,ham,10.1771,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,0.0465,0,52
+advanced_lora,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,15.2648,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,True,False,False,0.0571,0,141
+advanced_lora,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,10.8644,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,True,0.0444,0,56
+advanced_lora,767,2168,Yes.he have good crickiting mind,ham,ham,7.7283,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.037,0,32
+advanced_lora,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,12.636,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.069,0,48
+advanced_lora,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,11.5194,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,True,False,0.0263,0,53
+advanced_lora,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,37.1854,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,True,True,True,0.3412,4,158
+advanced_lora,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,11.4016,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,True,False,False,0.0494,3,111
+advanced_lora,990,1363,What does the dance river do?,ham,ham,9.8219,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0435,0,29
+advanced_lora,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,10.6535,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,False,False,0.1698,0,69
+advanced_lora,557,2387,No message..no responce..what happend?,ham,ham,9.2149,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0333,0,38
+advanced_lora,963,2322,Ok...,ham,ham,8.9057,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.5,0,5
+advanced_lora,520,835,Surely result will offer:),ham,ham,8.4093,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0476,0,26
+advanced_lora,793,4216,No dear i was sleeping :-P,ham,ham,14.1842,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,0.1053,0,26
+advanced_lora,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,9.5987,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,False,False,0.0488,0,54
+advanced_lora,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,12.7978,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,0.0357,0,37
+advanced_lora,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,ham,13.8867,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0781,0,160
+advanced_lora,443,2777,Send me your id and password,ham,ham,10.4253,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: unsupported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,True,0.0435,0,28
+advanced_lora,527,4306,Yo come over carlos will be here soon,ham,ham,10.3336,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0333,0,37
+advanced_lora,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,14.6621,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0286,0,88
+advanced_lora,122,3889,ok....take care.umma to you too...,ham,ham,12.2897,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0,0,34
+advanced_lora,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,25.1966,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,True,True,False,False,False,True,0.1636,0,152
+advanced_lora,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,11.6939,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0167,0,73
+advanced_lora,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,12.0537,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.039,0,103
+advanced_lora,519,3834,I had askd u a question some hours before. Its answer,ham,ham,11.0565,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.0476,0,53
+advanced_lora,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,14.64,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,False,False,False,0.0426,0,121
+advanced_lora,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,10.0075,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,1.0,2,40
+advanced_lora,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,11.9591,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0455,0,86
+advanced_lora,809,1346,Que pases un buen tiempo or something like that,ham,ham,11.008,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0256,0,47
+advanced_lora,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,12.079,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0238,0,51
+advanced_lora,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,15.9266,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0648,3,157
+advanced_lora,149,2745,"Tick, tick, tick ... Babe",ham,ham,12.876,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.125,0,25
+advanced_lora,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,13.3669,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.0353,0,124
+advanced_lora,537,1865,You call him now ok i said call him,ham,ham,10.7553,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,True,False,True,0.037,0,35
+advanced_lora,118,4700,Yes fine ,ham,ham,29.0353,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.1429,0,9
+advanced_lora,894,2741,Nothing. Can...,ham,ham,12.899,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.2,0,15
+advanced_lora,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,10.8012,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,True,False,0.06,0,64
+advanced_lora,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,ham,10.6004,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,0.0233,0,57
+advanced_lora,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,ham,13.7806,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.175,0,106
+advanced_lora,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,ham,23.0138,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: supported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.1111,1,324
+advanced_lora,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,spam,15.6256,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 3 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 3
+Verification: unsupported
+Classifier mode: lora",,3.0,,,,False,False,False,False,False,False,0.0755,1,147
+advanced_lora,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,16.1308,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,True,True,True,0.2283,1,143
+advanced_lora,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,10.5517,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0079,0,161
+advanced_lora,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,12.0775,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 4
+Verification: supported
+Classifier mode: lora",,4.0,,,,False,False,False,True,False,False,0.0541,0,99
+advanced_lora,581,4217,Er mw im filled tuth is aight,ham,ham,8.3927,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0435,0,29
+advanced_lora,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,19.765,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,False,True,True,True,0.4124,3,149
+advanced_lora,642,3833,Ok.,ham,ham,9.9224,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,False,False,False,False,False,0.5,0,3
+advanced_lora,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,18.7555,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,False,True,True,0.2456,1,158
+advanced_lora,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,21.5174,"Prediction: SPAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 4 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 5
+Verification: supported
+Classifier mode: lora",,5.0,,,,False,True,True,True,False,True,0.3838,2,148
+advanced_lora,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,10.4231,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 2 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 2
+Verification: supported
+Classifier mode: lora",,2.0,,,,False,False,False,False,False,False,0.0417,0,37
+advanced_lora,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,ham,10.4402,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: unsupported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.0351,1,71
+advanced_lora,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,11.2588,"Prediction: HAM
+Explanation: Prediction generated by the fine-tuned LoRA SMS classifier with 1 retrieved labeled example(s) used as in-context evidence (source: filtered_docs).
+Evidence examples used: 1
+Verification: supported
+Classifier mode: lora",,1.0,,,,False,False,False,False,False,False,0.2688,3,127
+guarded_fallback,23,5397,Dunno lei shd b driving lor cos i go sch 1 hr oni.,ham,ham,10.3397,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,0.0278,0,50
+guarded_fallback,114,4886,Poor girl can't go one day lmao,ham,ham,12.5368,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,0.0417,0,31
+guarded_fallback,180,2669,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,spam,spam,20.7412,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,True,False,True,0.1228,1,162
+guarded_fallback,140,3943,She's borderline but yeah whatever.,ham,ham,10.5279,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0345,0,35
+guarded_fallback,495,2535,Ok enjoy . R u there in home.,ham,ham,12.5108,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.1,0,29
+guarded_fallback,188,457,"LOOK AT AMY URE A BEAUTIFUL, INTELLIGENT WOMAN AND I LIKE U A LOT. I KNOW U DONT LIKE ME LIKE THAT SO DONT WORRY.",ham,ham,17.1455,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,1.0,0,115
+guarded_fallback,745,877,Are you in castor? You need to see something,ham,ham,12.7467,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.0571,0,44
+guarded_fallback,223,5179,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",ham,ham,14.7515,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,True,False,False,0.0323,0,86
+guarded_fallback,441,3414,Where do you need to go to get it?,ham,ham,16.8639,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.04,0,34
+guarded_fallback,364,3398,Heehee that was so funny tho,ham,ham,18.716,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0435,0,28
+guarded_fallback,15,3977,I wish u were here. I feel so alone,ham,ham,21.7507,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0769,0,35
+guarded_fallback,867,2503,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",ham,ham,13.0284,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,True,False,False,0.0478,1,306
+guarded_fallback,295,2255,Ok. Me watching tv too.,ham,ham,16.9685,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.1176,0,23
+guarded_fallback,472,4713,Thats cool princess! I will cover your face in hot sticky cum :),ham,ham,19.2503,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: unsupported
+Fallback Used: True
+Base Verification: supported
+Source: advanced_rag_base (fallback)",,4.0,True,ham,unsupported,False,False,False,False,False,False,0.0408,1,64
+guarded_fallback,787,5158,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",ham,ham,10.19,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0484,0,77
+guarded_fallback,562,4768,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,spam,spam,29.8438,"Final Prediction: SPAM
+Initial LoRA Prediction: HAM
+LoRA Verification: unsupported
+Fallback Used: True
+Base Verification: supported
+Source: advanced_rag_base (fallback)",,5.0,True,ham,unsupported,False,True,False,False,False,True,0.1481,0,89
+guarded_fallback,155,3529,"You are a £1000 winner or Guaranteed Caller Prize, this is our Final attempt to contact you! To Claim Call 09071517866 Now! 150ppmPOBox10183BhamB64XE",spam,spam,20.2633,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,True,True,True,0.1633,2,149
+guarded_fallback,973,4291,"For you information, IKEA is spelled with all caps. That is not yelling. when you thought i had left you, you were sitting on the bed among the mess when i came in. i said we were going after you got home from class. please don't try and bullshit me. It makes me want to listen to you less.",ham,ham,16.1926,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.0314,0,290
+guarded_fallback,22,1703,I have lost 10 kilos as of today!,ham,ham,10.0361,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,True,False,False,0.0435,1,33
+guarded_fallback,98,449,LOL ... Have you made plans for new years?,ham,ham,12.5953,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.1333,0,42
+guarded_fallback,933,4833,Rats. Hey did u ever vote for the next themes?,ham,ham,16.1407,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0571,0,46
+guarded_fallback,1011,1959,"Lol ... Oh no babe, I wont be sliding into your place after midnight, but thanks for the invite",ham,ham,10.8339,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,0.0417,0,95
+guarded_fallback,366,4207,"Get the door, I'm here",ham,ham,11.0569,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.125,0,22
+guarded_fallback,644,2839,Were trying to find a Chinese food place around here,ham,ham,10.696,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.0465,0,52
+guarded_fallback,382,3987,"Friendship is not a game to play, It is not a word to say, It doesn\'t start on March and ends on May, It is tomorrow, yesterday, today and e",ham,ham,14.8647,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,True,False,False,0.0571,0,141
+guarded_fallback,948,5521,Can you pls send me that company name. In saibaba colany,ham,ham,11.3376,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,True,0.0444,0,56
+guarded_fallback,767,2168,Yes.he have good crickiting mind,ham,ham,9.6413,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.037,0,32
+guarded_fallback,1106,3945,"Until 545 lor... Ya, can go 4 dinner together...",ham,ham,10.7582,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.069,0,48
+guarded_fallback,689,3526,I not free today i haf 2 pick my parents up tonite...,ham,ham,10.0264,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,True,True,False,0.0263,0,53
+guarded_fallback,578,2064,"URGENT! Your mobile No *********** WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362220 ASAP! BOX97N7QP, 150ppm",spam,spam,34.6992,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,True,True,True,0.3412,4,158
+guarded_fallback,396,1247,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",ham,ham,10.0521,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,True,False,False,0.0494,3,111
+guarded_fallback,990,1363,What does the dance river do?,ham,ham,7.8534,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0435,0,29
+guarded_fallback,536,4848,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,ham,ham,11.3056,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,True,False,False,0.1698,0,69
+guarded_fallback,557,2387,No message..no responce..what happend?,ham,ham,9.5138,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0333,0,38
+guarded_fallback,963,2322,Ok...,ham,ham,8.705,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.5,0,5
+guarded_fallback,520,835,Surely result will offer:),ham,ham,9.9251,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0476,0,26
+guarded_fallback,793,4216,No dear i was sleeping :-P,ham,ham,9.1274,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.1053,0,26
+guarded_fallback,808,3313,I know you are serving. I mean what are you doing now.,ham,ham,10.124,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,True,False,False,0.0488,0,54
+guarded_fallback,573,5195,"It's wylie, you in tampa or sarasota?",ham,ham,11.367,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.0357,0,37
+guarded_fallback,252,7,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,ham,ham,15.7121,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0781,0,160
+guarded_fallback,443,2777,Send me your id and password,ham,ham,13.0721,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,True,0.0435,0,28
+guarded_fallback,527,4306,Yo come over carlos will be here soon,ham,ham,13.5946,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.0333,0,37
+guarded_fallback,550,2237,Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming,ham,ham,9.1324,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0286,0,88
+guarded_fallback,122,3889,ok....take care.umma to you too...,ham,ham,10.6415,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0,0,34
+guarded_fallback,132,2420,SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE,spam,spam,20.3961,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,True,True,False,False,False,True,0.1636,0,152
+guarded_fallback,81,1667,Guess who spent all last night phasing in and out of the fourth dimension,ham,ham,9.9186,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0167,0,73
+guarded_fallback,648,2373,Watching tv lor... Y she so funny we bluff her 4 wat. Izzit because she thk it's impossible between us?,ham,ham,13.411,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.039,0,103
+guarded_fallback,519,3834,I had askd u a question some hours before. Its answer,ham,ham,9.8884,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.0476,0,53
+guarded_fallback,706,1540,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,ham,ham,17.8621,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,False,False,0.0426,0,121
+guarded_fallback,907,5390,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,ham,ham,11.4908,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,1.0,2,40
+guarded_fallback,765,3238,Ron say fri leh. N he said ding tai feng cant make reservations. But he said wait lor.,ham,ham,9.4907,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0455,0,86
+guarded_fallback,809,1346,Que pases un buen tiempo or something like that,ham,ham,11.3568,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0256,0,47
+guarded_fallback,316,1489,Tell them no need to investigate about me anywhere.,ham,ham,11.655,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0238,0,51
+guarded_fallback,427,3791,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",ham,ham,18.9898,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0648,3,157
+guarded_fallback,149,2745,"Tick, tick, tick ... Babe",ham,ham,12.5317,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.125,0,25
+guarded_fallback,195,4704,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,ham,ham,15.71,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.0353,0,124
+guarded_fallback,537,1865,You call him now ok i said call him,ham,ham,10.24,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,True,False,True,0.037,0,35
+guarded_fallback,118,4700,Yes fine ,ham,ham,8.7966,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.1429,0,9
+guarded_fallback,894,2741,Nothing. Can...,ham,ham,10.3448,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.2,0,15
+guarded_fallback,994,4672,"Probably not, I'm almost out of gas and I get some cash tomorrow",ham,ham,10.445,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,False,True,False,0.06,0,64
+guarded_fallback,323,453,K:)k:)what are detail you want to transfer?acc no enough?,ham,ham,9.9274,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,0.0233,0,57
+guarded_fallback,358,4659,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,ham,ham,10.488,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.175,0,106
+guarded_fallback,285,5266,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",ham,ham,18.9833,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,3.0,False,ham,supported,False,False,False,False,False,False,0.1111,1,324
+guarded_fallback,225,2960,Buzzzz! *grins* Did I buzz your ass? Buzz your chest ? Buzz your cock ? Where do you keep your phone ? Is the vibrator on ? Did you feel it shake ?,ham,ham,21.6234,"Final Prediction: HAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: unsupported
+Fallback Used: True
+Base Verification: supported
+Source: advanced_rag_base (fallback)",,3.0,True,spam,unsupported,False,False,False,False,False,False,0.0755,1,147
+guarded_fallback,299,1598,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,spam,spam,16.2595,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,True,True,True,0.2283,1,143
+guarded_fallback,319,222,There is os called ubandu which will run without installing in hard disk...you can use that os to copy the important files in system and give it to repair shop..,ham,ham,10.3626,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0079,0,161
+guarded_fallback,1091,2738,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,ham,ham,11.7797,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,4.0,False,ham,supported,False,False,False,True,False,False,0.0541,0,99
+guarded_fallback,581,4217,Er mw im filled tuth is aight,ham,ham,9.1089,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.0435,0,29
+guarded_fallback,1009,1574,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now! HG/Suite342/2Lands Row/W1J6HL,spam,spam,19.6716,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,False,True,True,True,0.4124,3,149
+guarded_fallback,642,3833,Ok.,ham,ham,11.7608,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,ham,supported,False,False,False,False,False,False,0.5,0,3
+guarded_fallback,849,5234,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,spam,spam,18.7347,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,False,True,True,0.2456,1,158
+guarded_fallback,821,738,Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile from ONLY £10 at TXTAUCTION! Txt word: START to No: 81151 & get yours Now! 4T&Ctxt TC 150p/MTmsg,spam,spam,22.1454,"Final Prediction: SPAM
+Initial LoRA Prediction: SPAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,5.0,False,spam,supported,False,True,True,True,False,True,0.3838,2,148
+guarded_fallback,1006,4933,Match started.india  &lt;#&gt;  for 2,ham,ham,10.3457,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,2.0,False,ham,supported,False,False,False,False,False,False,0.0417,0,37
+guarded_fallback,970,1430,For sale - arsenal dartboard. Good condition but no doubles or trebles!,spam,spam,17.5211,"Final Prediction: SPAM
+Initial LoRA Prediction: HAM
+LoRA Verification: unsupported
+Fallback Used: True
+Base Verification: supported
+Source: advanced_rag_base (fallback)",,1.0,True,ham,unsupported,False,False,False,False,False,False,0.0351,1,71
+guarded_fallback,65,1034,"OH MR SHEFFIELD! You wanna play THAT game, okay. You're the boss and I'm the nanny. You give me a raise and I'll give YOU one!!",ham,ham,12.5474,"Final Prediction: HAM
+Initial LoRA Prediction: HAM
+LoRA Verification: supported
+Fallback Used: False
+Source: advanced_rag_lora",,1.0,False,ham,supported,False,False,False,False,False,False,0.2688,3,127

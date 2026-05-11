@@ -10,7 +10,7 @@ The project is designed as a portfolio-friendly LLM systems study: it includes i
 - **Base LLM classification** for direct spam/ham prediction without retrieval.
 - **Basic RAG** using Pinecone retrieval to ground classification in similar labeled SMS examples.
 - **Advanced Agentic RAG** with evidence retrieval, evidence filtering, classification, verification, retry/finalization logic, and structured orchestration.
-- **Evidence-aware LoRA classifier** using the local `smollm2_spam_lora_adapter/` as an experimental small-model classifier.
+- **Evidence-aware LoRA classifier** using `smollm2_spam_lora_adapter_v2/` as the default local small-model classifier. The original `smollm2_spam_lora_adapter/` is retained for comparison/history.
 - **Guarded fallback mode** that runs LoRA first, checks verifier support, and falls back to the advanced base RAG workflow when needed.
 - **Risk-feature logging** for explainability and error analysis, including URL, phone, currency, urgency, prize, call/reply, uppercase, exclamation, and length features.
 - **Quantitative benchmark pipeline** that writes reproducible CSV, Markdown, and confusion-matrix artifacts.
@@ -62,9 +62,9 @@ The table below comes from a **75-sample stratified held-out benchmark**. The sa
 | `tfidf_lr` | 75 | 0.9867 | 0.9699 | 0.9000 | 1.0000 | 9 | 0 | 1 | 65 | 0.0001 |
 | `base_llm` | 75 | 0.8800 | 0.7967 | 0.9000 | 0.8769 | 9 | 8 | 1 | 57 | 0.9988 |
 | `basic_rag` | 75 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 10 | 0 | 0 | 65 | 1.4964 |
-| `advanced_base` | 75 | 0.9867 | 0.9723 | 1.0000 | 0.9846 | 10 | 1 | 0 | 64 | 5.9119 |
-| `advanced_lora` | 75 | 0.8800 | 0.5585 | 0.1000 | 1.0000 | 1 | 0 | 9 | 65 | 10.7867 |
-| `guarded_fallback` | 75 | 0.9867 | 0.9723 | 1.0000 | 0.9846 | 10 | 1 | 0 | 64 | 11.7479 |
+| `advanced_base` | 75 | 0.9867 | 0.9723 | 1.0000 | 0.9846 | 10 | 1 | 0 | 64 | 7.7787 |
+| `advanced_lora` | 75 | 0.9600 | 0.9096 | 0.8000 | 0.9846 | 8 | 1 | 2 | 64 | 14.0435 |
+| `guarded_fallback` | 75 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 10 | 0 | 0 | 65 | 13.7462 |
 
 Generated benchmark artifacts:
 
@@ -79,11 +79,26 @@ Generated benchmark artifacts:
 - TF-IDF + Logistic Regression remained a strong and extremely fast classical baseline.
 - The base LLM was weaker without retrieval grounding, mainly due to false positives.
 - Basic RAG and Advanced Base performed strongly on this benchmark sample.
-- The LoRA adapter is integrated and runnable, but it still showed weak spam recall (`0.1000`) in this run.
-- Evidence-aware prompting alone did not fix the LoRA classifier's ham bias.
-- Guarded fallback reached `1.0000` spam recall, rescuing all 9 spam examples missed by LoRA.
-- Fallback was used on 11 of 75 rows: 9 spam rows and 2 ham rows.
+- Advanced LoRA improved substantially after v2 retraining: spam recall increased from `0.1000` with the old adapter to `0.8000` with `smollm2_spam_lora_adapter_v2/`.
+- The v2 LoRA adapter reduced spam false negatives from 9 to 2 on the 75-sample benchmark, while introducing 1 ham false positive.
+- Guarded fallback still produced the most reliable result: `1.0000` accuracy, macro F1, spam recall, and ham recall.
+- Fallback usage dropped from 11 rows with the old adapter to 4 rows with the v2 adapter.
 - System design matters as much as model choice: a small fine-tuned model does not automatically outperform RAG or a classical baseline.
+
+## LoRA v2 Retraining
+
+The default LoRA adapter is now `smollm2_spam_lora_adapter_v2/`. The original `smollm2_spam_lora_adapter/` remains in the repository for comparison/history and can still be tested with:
+
+```bash
+LORA_ADAPTER_PATH=smollm2_spam_lora_adapter python -m src.benchmark --modes advanced_lora --sample-size 75
+```
+
+LoRA v2 retraining artifacts:
+
+- Notebook: `notebooks/04_lora_retraining_v2.ipynb`
+- New adapter: `smollm2_spam_lora_adapter_v2/`
+- LoRA v2 eval artifacts: `outputs/lora_v2_eval/`
+- Full v2 benchmark archive: `outputs/benchmark_75_lora_v2_full/`
 
 ## How to Run
 
@@ -143,6 +158,7 @@ python -m src.run_comparison
 - `notebooks/01_dataset_eda.ipynb` summarizes the dataset and explainability risk features.
 - `notebooks/02_baseline_and_benchmark_analysis.ipynb` analyzes benchmark metrics and confusion matrices.
 - `notebooks/03_error_analysis_and_system_insights.ipynb` analyzes prediction-level errors, LoRA failures, guarded fallback corrections, and risk-feature patterns.
+- `notebooks/04_lora_retraining_v2.ipynb` documents the Colab/GPU retraining workflow for the v2 LoRA adapter.
 
 The notebooks do not call OpenAI, Pinecone, or LoRA models. They read existing files from `data/` and `outputs/`. Source implementation remains in `src/`.
 
@@ -159,6 +175,7 @@ sms-spam-llm-system/
 │   ├── 01_dataset_eda.ipynb
 │   ├── 02_baseline_and_benchmark_analysis.ipynb
 │   ├── 03_error_analysis_and_system_insights.ipynb
+│   ├── 04_lora_retraining_v2.ipynb
 │   └── archive/
 │       ├── 01_vector_db_and_embeddings.ipynb
 │       ├── 02_rag_baselines.ipynb
@@ -184,12 +201,23 @@ sms-spam-llm-system/
 │   ├── benchmark_predictions.csv
 │   ├── benchmark_results.csv
 │   ├── benchmark_summary.md
+│   ├── benchmark_75/
+│   ├── benchmark_75_lora_v2_full/
+│   ├── benchmark_lora_v2/
 │   ├── confusion_matrices.png
+│   ├── lora_v2_eval/
 │   ├── comparison_results.md
 │   ├── discussion.md
 │   ├── graph.png
 │   └── sample_runs.md
-└── smollm2_spam_lora_adapter/
+├── smollm2_spam_lora_adapter/
+│   ├── adapter_config.json
+│   ├── adapter_model.safetensors
+│   ├── chat_template.jinja
+│   ├── tokenizer.json
+│   ├── tokenizer_config.json
+│   └── README.md
+└── smollm2_spam_lora_adapter_v2/
     ├── adapter_config.json
     ├── adapter_model.safetensors
     ├── chat_template.jinja
@@ -202,16 +230,16 @@ sms-spam-llm-system/
 
 - The all-mode benchmark shown above uses 75 held-out samples because LLM/RAG calls cost money.
 - Results should be validated on a larger held-out test set before any production use.
-- The current LoRA adapter has poor spam recall on the benchmark slice.
-- Evidence-aware prompting alone did not fix the LoRA classifier's tendency to predict `ham`.
+- The v2 LoRA adapter is much stronger than the original adapter, but still missed 2 of 10 spam examples in the 75-sample benchmark.
+- Evidence-aware prompting and retraining improved LoRA behavior, but guarded fallback is still needed for the most reliable result.
 - Full RAG and agentic modes require valid OpenAI and Pinecone configuration.
-- The LoRA loader uses a tokenizer fallback because the saved adapter tokenizer config contains a stale tokenizer class. The adapter itself is left unchanged.
+- The LoRA loader uses a tokenizer fallback because the saved adapter tokenizer config contains a stale tokenizer class. Adapter files are left unchanged.
 - The benchmark is useful for comparing system behavior, but it is not a substitute for broader evaluation, calibration, and robustness testing.
 
 ## Future Work
 
 - Run a larger benchmark over more of the held-out test set.
-- Retrain or improve the LoRA adapter with stronger spam recall objectives.
+- Validate the v2 LoRA adapter on a larger benchmark and continue improving spam recall without increasing ham false positives.
 - Calibrate verifier and fallback thresholds.
 - Add a local vector store option for fully offline RAG experiments.
 - Add CI tests for data loading, feature extraction, baseline metrics, and benchmark output schema.
